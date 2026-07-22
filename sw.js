@@ -1,16 +1,18 @@
-const CACHE='rain-guard-v1';
+const CACHE='rain-guard-v2';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icons/rain-guard.svg'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))));
-self.addEventListener('fetch',event=>{
-  if(event.request.method!=='GET'||event.request.url.includes('api.open-meteo.com'))return;
-  event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(response=>{
-    const copy=response.clone();
-    caches.open(CACHE).then(cache=>cache.put(event.request,copy));
-    return response;
-  })));
-});
-self.addEventListener('notificationclick',event=>{
-  event.notification.close();
-  event.waitUntil(clients.matchAll({type:'window',includeUncontrolled:true}).then(list=>list[0]?.focus()||clients.openWindow('./')));
-});
+const DB_NAME='rain-guard-db',DB_STORE='kv',BG_TAG='rain-guard-check';
+const DIRS=['中心','北','東北','東','東南','南','西南','西','西北'];
+const BEARINGS=[null,0,45,90,135,180,225,270,315];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))),self.clients.claim()])));
+self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||event.request.url.includes('api.open-meteo.com'))return;event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response}))) });
+function openDB(){return new Promise((resolve,reject)=>{const r=indexedDB.open(DB_NAME,1);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(DB_STORE))r.result.createObjectStore(DB_STORE)};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)})}
+async function dbGet(key){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readonly'),r=tx.objectStore(DB_STORE).get(key);r.onsuccess=()=>{db.close();resolve(r.result)};r.onerror=()=>{db.close();reject(r.error)}})}
+async function dbSet(key,value){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readwrite');tx.objectStore(DB_STORE).put(value,key);tx.oncomplete=()=>{db.close();resolve()};tx.onerror=()=>{db.close();reject(tx.error)}})}
+function dest(lat,lon,bearing,km){const R=6371,d=km/R,q=bearing*Math.PI/180,p=lat*Math.PI/180,l=lon*Math.PI/180,p2=Math.asin(Math.sin(p)*Math.cos(d)+Math.cos(p)*Math.sin(d)*Math.cos(q)),l2=l+Math.atan2(Math.sin(q)*Math.sin(d)*Math.cos(p),Math.cos(d)-Math.sin(p)*Math.sin(p2));return{lat:p2*180/Math.PI,lon:((l2*180/Math.PI+540)%360)-180}}
+function points(c){const p=[{lat:c.latitude,lon:c.longitude}];BEARINGS.slice(1).forEach(b=>p.push(dest(c.latitude,c.longitude,b,c.radius)));return p}
+async function backgroundRainCheck(){const c=await dbGet('config');if(!c||Date.now()-c.updatedAt>24*60*60*1000)return;const ps=points(c),u=new URL('https://api.open-meteo.com/v1/forecast');u.searchParams.set('latitude',ps.map(p=>p.lat.toFixed(5)).join(','));u.searchParams.set('longitude',ps.map(p=>p.lon.toFixed(5)).join(','));u.searchParams.set('minutely_15','precipitation');u.searchParams.set('forecast_days','1');u.searchParams.set('timeformat','unixtime');u.searchParams.set('timezone','auto');const r=await fetch(u);if(!r.ok)return;const raw=await r.json(),sets=Array.isArray(raw)?raw:[raw],now=Date.now()/1000-60;const rainy=sets.map((d,i)=>{const s=d.minutely_15;if(!s?.time)return null;const j=s.time.findIndex((t,k)=>t>=now&&+(s.precipitation[k]||0)>=c.threshold);if(j<0)return null;const next=s.time[j];return{direction:DIRS[i],next,minutes:Math.max(0,Math.round((next*1000-Date.now())/60000)),mm:+(s.precipitation[j]||0)}}).filter(Boolean).sort((a,b)=>a.next-b.next);const w=rainy[0];if(!w||w.minutes>c.lead)return;const key=w.next+'-'+w.direction,last=await dbGet('lastAlert');if(key===last)return;await self.registration.showNotification(w.minutes?'約 '+w.minutes+' 分鐘後可能下雨':'目前偵測到降雨',{body:`${w.direction}方向，預估 ${w.mm.toFixed(2)} mm / 15 分鐘（背景使用最後已知位置）`,icon:'./icons/rain-guard.svg',badge:'./icons/rain-guard.svg',tag:'rain-guard',renotify:true,data:{url:'./'}});await dbSet('lastAlert',key)}
+self.addEventListener('periodicsync',event=>{if(event.tag===BG_TAG)event.waitUntil(backgroundRainCheck())});
+self.addEventListener('sync',event=>{if(event.tag===BG_TAG)event.waitUntil(backgroundRainCheck())});
+self.addEventListener('push',event=>{let data={};try{data=event.data?.json()||{}}catch{data={body:event.data?.text()||'偵測到新的降雨資訊。'}}event.waitUntil(self.registration.showNotification(data.title||'雨境降雨預警',{body:data.body||'請開啟雨境查看最新預報。',icon:'./icons/rain-guard.svg',badge:'./icons/rain-guard.svg',tag:data.tag||'rain-guard-push',data:{url:data.url||'./'}}))});
+self.addEventListener('notificationclick',event=>{event.notification.close();const url=event.notification.data?.url||'./';event.waitUntil(clients.matchAll({type:'window',includeUncontrolled:true}).then(list=>{for(const client of list){if('focus'in client){client.navigate?.(url);return client.focus()}}return clients.openWindow(url)}))});
