@@ -1,13 +1,16 @@
 {
+  "id": "./",
   "name": "雨境｜定位降雨預警",
   "short_name": "雨境",
   "description": "依使用者位置與偵測半徑，預估雨勢進入範圍的時間與方向。",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "background_color": "#07131f",
   "theme_color": "#10263b",
   "lang": "zh-Hant",
+  "categories": ["weather", "utilities"],
   "icons": [
     {
       "src": "./icons/rain-guard.svg",
