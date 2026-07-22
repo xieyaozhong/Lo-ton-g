@@ -1,5 +1,5 @@
-const CACHE='rain-guard-v3';
-const ASSETS=['./','./index.html','./manifest.webmanifest','./icons/rain-guard.svg'];
+const CACHE='rain-guard-v4';
+const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icons/rain-guard.svg'];
 const DB_NAME='rain-guard-db',DB_STORE='kv',BG_TAG='rain-guard-check';
 const DIRS=['中心','北','東北','東','東南','南','西南','西','西北'];
 const BEARINGS=[null,0,45,90,135,180,225,270,315];
