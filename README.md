@@ -6,45 +6,45 @@
 
 ## 功能
 
-- 瀏覽器定位與移動追蹤
+- 開啟網站後自動請求定位
+- 持續追蹤位置，移動約 500 公尺後更新預報
 - 1–30 公里偵測半徑
 - 中心＋八方向同步取樣
 - 每 15 分鐘降水預估與未來 3 小時圖表
 - 可調降雨門檻與提前通知時間
-- 每 5 分鐘自動更新
+- 頁面開啟時每 5 分鐘自動更新
+- 通知權限、背景模式與定位狀態顯示
+- 支援 Service Worker、單次 Background Sync 與 Periodic Background Sync（依瀏覽器支援程度）
 - 可安裝為 PWA
-- 網頁開啟或 PWA 在前景時可發送系統通知
 
-## 電腦快速啟動
+## 自動定位
 
-1. 確認已安裝 Python 3。
-2. Windows 雙擊 `啟動_雨境.bat`；其他系統執行 `python server.py`。
-3. 瀏覽器開啟啟動視窗顯示的網址（通常是 `http://localhost:8765`）。
-4. 按「開始偵測」並允許位置權限。
+網站載入後會自動呼叫 Geolocation API。首次使用仍必須由使用者在瀏覽器或系統提示中允許位置權限。位置被拒絕後，網頁無法自行繞過權限，必須到瀏覽器或系統設定重新允許。
 
-也可在此資料夾執行：
+## 背景通知
 
-```bash
-python -m http.server 8765
-```
+通知權限必須由使用者點擊「啟用背景通知」後授權，瀏覽器不允許網站在沒有使用者操作的情況下自行開啟通知。
 
-## 放到手機使用
+- 支援 Periodic Background Sync 的瀏覽器：會註冊最佳可用的背景檢查，使用最後已知位置查詢降雨；實際執行時間由系統決定，不保證每 15 分鐘準時執行。
+- 只支援單次 Background Sync 的瀏覽器：App 切到背景時會嘗試安排一次檢查。
+- iPhone／iPad：需先「加入主畫面」，再從主畫面 App 內點擊通知授權。要在 App 完全關閉後仍穩定收到通知，還需要 Web Push 後端保存訂閱並主動發送推播；GitHub Pages 靜態網站本身無法完成伺服器端推送。
+- 背景 Service Worker 無法持續取得即時 GPS，因此背景檢查使用最後一次開啟 App 時保存的位置。移動到新地點後需再次開啟雨境更新定位。
 
-手機瀏覽器的定位與通知通常要求 HTTPS。可把整個資料夾部署到 GitHub Pages、Cloudflare Pages、Netlify 或其他 HTTPS 靜態網站，再用 Safari／Chrome 開啟並加入主畫面。
+## iPhone 設定步驟
 
-### iPhone 注意
-
-- 建議先「加入主畫面」後，以主畫面圖示開啟。
-- 通知必須由使用者按鈕主動授權。
-- 純網頁無法保證在 App 完全關閉後持續每 5 分鐘執行。要做到真正背景常駐預警，需要原生 App，或伺服器定期查詢後透過 Web Push／APNs 發送。
+1. 用 Safari 開啟線上版。
+2. 點分享按鈕，選擇「加入主畫面」。
+3. 從主畫面的「雨境」圖示開啟。
+4. 允許定位。
+5. 點「啟用背景通知」並允許通知。
 
 ## 技術與判定
 
 - 資料來源：Open-Meteo Forecast API
-- API 使用 `minutely_15=precipitation,rain,weather_code`
+- API 使用 `minutely_15=precipitation,weather_code`
 - 一次傳送九組經緯度，找出最早達到門檻的取樣點
+- 使用 IndexedDB 在頁面與 Service Worker 間共享最後位置與預警設定
 - 時間使用 Unix timestamp，前端轉為使用者裝置本地時間
-- 「信心參考」取最接近該時段的逐小時降雨機率；若該模式無資料，顯示「模式雨量」
 
 ## 精度限制
 
@@ -52,4 +52,4 @@ python -m http.server 8765
 
 ## GitHub Pages 部署
 
-此儲存庫已包含 `.github/workflows/pages.yml`。推送到 `main` 後會自動建立並部署靜態網站。
+儲存庫包含 `.github/workflows/pages.yml`。推送到 `main` 後會自動建立並部署靜態網站。
