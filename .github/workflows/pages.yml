@@ -27,7 +27,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site/icons
-          cp index.html manifest.webmanifest sw.js .nojekyll _site/
+          cp index.html styles.css app.js manifest.webmanifest sw.js .nojekyll _site/
           cp icons/rain-guard.svg _site/icons/
 
       - name: Configure GitHub Pages
