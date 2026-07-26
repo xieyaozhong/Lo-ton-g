@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#10263b">
-<meta name="description" content="依使用者位置與偵測半徑，預估雨勢進入範圍的時間與方向。">
+<meta name="description" content="依使用者位置與偵測半徑，預估雨勢抵達或雨停時間。">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="雨境">
@@ -16,13 +16,13 @@
 </head>
 <body>
 <main class="shell">
-<header class="hero"><div><p class="eyebrow">LOCATION RAIN GUARD</p><h1>雨境</h1><p class="subtitle">開啟即自動定位，以你的位置為中心預估雨勢抵達時間。</p></div></header>
-<section class="card" aria-live="polite"><div class="topline"><span id="dot" class="dot"></span><span id="updated">準備自動定位</span></div><div id="headline" class="headline">正在啟動</div><div id="sub" class="sub">首次使用時，請允許網站取得位置。</div><div class="metrics"><div class="metric"><span>預估抵達</span><strong id="arrival">—</strong></div><div class="metric"><span>最早方向</span><strong id="direction">—</strong></div><div class="metric"><span>預估雨量</span><strong id="rain">—</strong></div><div class="metric"><span>信心參考</span><strong id="prob">—</strong></div></div></section>
-<section class="card"><div class="row"><div><h2>偵測範圍</h2><p id="position">正在取得位置…</p></div><span id="badge" class="badge">半徑 5 km</span></div><div class="radar"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><div class="sweep"></div><div class="center"></div><span class="compass n">北</span><span class="compass e">東</span><span class="compass s">南</span><span class="compass w">西</span><div id="samples"></div></div><p class="fine">中心與邊界八方向同步取樣；預報格點解析度不同時，鄰近點可能取得相同資料。</p></section>
+<header class="hero"><div><p class="eyebrow">LOCATION RAIN GUARD</p><h1>雨境</h1><p class="subtitle">開啟即自動定位；尚未下雨時顯示抵達時間，正在下雨時改為預估雨停。</p></div></header>
+<section class="card" aria-live="polite"><div class="topline"><span id="dot" class="dot"></span><span id="updated">準備自動定位</span></div><div id="headline" class="headline">正在啟動</div><div id="sub" class="sub">首次使用時，請允許網站取得位置。</div><div class="metrics"><div class="metric"><span id="arrivalLabel">預估抵達</span><strong id="arrival">—</strong></div><div class="metric"><span id="directionLabel">最早方向</span><strong id="direction">—</strong></div><div class="metric"><span id="rainLabel">預估雨量</span><strong id="rain">—</strong></div><div class="metric"><span id="probLabel">信心參考</span><strong id="prob">—</strong></div></div></section>
+<section class="card"><div class="row"><div><h2>偵測範圍</h2><p id="position">正在取得位置…</p></div><span id="badge" class="badge">半徑 5 km</span></div><div class="radar"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><div class="sweep"></div><div class="center"></div><span class="compass n">北</span><span class="compass e">東</span><span class="compass s">南</span><span class="compass w">西</span><div id="samples"></div></div><p class="fine">中心與邊界八方向同步取樣；中心點正在下雨時，以連續兩個低於門檻的 15 分鐘時段估算雨停。</p></section>
 <section class="card"><div class="row"><div><h2>中心點未來 3 小時</h2><p>每 15 分鐘預估降水量</p></div><button id="refresh" class="secondary" type="button" aria-label="立即更新">↻</button></div><div id="timeline" class="timeline">取得定位後顯示</div></section>
 <section class="card"><h2>權限與背景</h2><div class="permission-list"><div class="permission"><div><strong>自動定位</strong><small>開啟網站後自動取得位置，移動時更新。</small></div><span id="locationState" class="state wait">等待授權</span></div><div class="permission"><div><strong>通知權限</strong><small>通知權限必須由你點擊一次授權。</small></div><span id="notificationState" class="state wait">尚未開啟</span></div><div class="permission"><div><strong>背景檢查</strong><small>支援的瀏覽器會用最後已知位置定期檢查；實際頻率由系統決定。</small></div><span id="backgroundState" class="state wait">待設定</span></div></div><div class="toggle-row"><div><strong>每次開啟自動定位</strong><p class="help" style="margin:4px 0 0">關閉後仍可按「重新定位」。</p></div><label class="toggle"><input id="autoLocate" type="checkbox" checked><span class="slider"></span></label></div><div class="buttons"><button id="notify" class="primary" type="button">啟用背景通知</button><button id="testNotify" class="secondary" type="button">測試通知</button></div><p id="permissionHelp" class="help"></p></section>
 <section class="card settings"><h2>預警設定</h2><label><span>偵測半徑 <b id="radiusText">5 km</b></span><input id="radius" type="range" min="1" max="30" step="1" value="5"></label><label><span>視為下雨的門檻 <b id="thresholdText">0.10 mm / 15 分鐘</b></span><input id="threshold" type="range" min="0.05" max="2" step="0.05" value="0.10"></label><label><span>提前通知時間 <b id="leadText">60 分鐘</b></span><input id="lead" type="range" min="15" max="180" step="15" value="60"></label><div class="buttons"><button id="start" class="primary" type="button">重新定位</button><button id="refreshSettings" class="secondary" type="button">立即更新</button></div><p id="msg" class="msg"></p></section>
-<footer>預報來源：Open-Meteo。背景模式使用最後已知位置；移動後請重新開啟雨境更新定位。預警屬模式推估，不取代官方警特報。</footer>
+<footer>預報來源：Open-Meteo。雨停時間以中心點連續 30 分鐘低於設定門檻估算；局部對流可能快速變化，不取代官方警特報。</footer>
 </main>
 <script src="./app.js" defer></script>
 </body>
