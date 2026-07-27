@@ -273,7 +273,11 @@
     $('badge').textContent = `半徑 ${state.radius} km・17 點`;
   };
   sync();
-  navigator.serviceWorker?.register('./sw-v2.js').then(() => navigator.serviceWorker.ready).then(registration => {
-    state.sw = registration;
-  }).catch(console.warn);
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready
+      .then(() => navigator.serviceWorker.register('./sw-v2.js'))
+      .then(() => navigator.serviceWorker.ready)
+      .then(registration => { state.sw = registration; })
+      .catch(console.warn);
+  }
 })();
