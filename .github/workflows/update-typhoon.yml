@@ -6,7 +6,7 @@ on:
     paths:
       - 'tools/update_typhoon_data.py'
       - 'tools/hotfix_typhoon_data.py'
-      - 'tools/probe_cwa_live.py'
+      - 'tools/fetch_official_live.py'
       - '.github/workflows/update-typhoon.yml'
   schedule:
     - cron: '*/5 * * * *'
@@ -45,8 +45,8 @@ jobs:
             echo "Keep cached county weather; live sources refresh every 5 minutes."
           fi
 
-      - name: Fetch official CWA live cyclone data
-        run: python tools/probe_cwa_live.py
+      - name: Fetch official CWA and NCDR live data
+        run: python tools/fetch_official_live.py
 
       - name: Calibrate live typhoon and closure data
         run: python tools/hotfix_typhoon_data.py
@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/typhoon-dashboard.json data/cwa-live.json
+          git add data/typhoon-dashboard.json data/cwa-live.json data/ncdr-live.json
           if git diff --cached --quiet; then
             echo "No dashboard data change."
             exit 0
