@@ -8,6 +8,8 @@ on:
       - 'tools/hotfix_typhoon_data.py'
       - 'tools/fetch_official_live.py'
       - 'tools/apply_ncdr.py'
+      - 'tools/update_holiday_outlook.py'
+      - 'tools/rescore_holiday_outlook.py'
       - '.github/workflows/update-typhoon.yml'
   schedule:
     - cron: '*/5 * * * *'
@@ -23,7 +25,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -46,6 +48,33 @@ jobs:
             echo "Keep cached county weather; live sources refresh every 5 minutes."
           fi
 
+      - name: Refresh tomorrow and day-after-tomorrow outlook when due
+        shell: bash
+        run: |
+          due=$(python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          p=Path('data/typhoon-dashboard.json')
+          try:
+              d=json.loads(p.read_text(encoding='utf-8'))
+              stamp=(d.get('holiday_outlook') or {}).get('updated_at')
+              if not stamp:
+                  print('yes')
+              else:
+                  dt=datetime.fromisoformat(stamp.replace('Z','+00:00')).astimezone(timezone.utc)
+                  age=(datetime.now(timezone.utc)-dt).total_seconds()/60
+                  print('yes' if age >= 25 else 'no')
+          except Exception:
+              print('yes')
+          PY
+          )
+          if [ "$due" = "yes" ]; then
+            python tools/update_holiday_outlook.py
+          else
+            echo "Two-day outlook weather is still fresh."
+          fi
+
       - name: Fetch official CWA and NCDR live data
         run: python tools/fetch_official_live.py
 
@@ -54,6 +83,9 @@ jobs:
 
       - name: Merge official NCDR closure notices
         run: python tools/apply_ncdr.py
+
+      - name: Re-score two-day outlook against latest CWA track
+        run: python tools/rescore_holiday_outlook.py
 
       - name: Commit data only when changed
         run: |
