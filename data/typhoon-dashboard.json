@@ -1,6 +1,6 @@
 {
-  "schema": 3,
-  "generated_at": "2026-08-08T22:34:41+08:00",
+  "schema": 4,
+  "generated_at": "2026-08-08T22:36:11+08:00",
   "target_date": "2026-08-09",
   "typhoons": [
     {
@@ -444,7 +444,7 @@
   "jma_updated_at": "2026-08-08T21:08:30+08:00",
   "official_closures": {
     "fetch_ok": true,
-    "updated_text": "",
+    "updated_text": "2026/08/08 20:06:13",
     "no_notice": false,
     "rows": [
       {
@@ -533,19 +533,20 @@
       },
       {
         "county": "連江縣",
-        "status": ""
+        "status": "[停班停課通知]連江縣:8/9已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥0836-22111。"
       }
-    ]
+    ],
+    "machine_source": "DGPA HTML + NCDR CAP"
   },
   "predictions": [
     {
       "county": "連江縣",
       "lat": 26.1605,
       "lon": 119.9517,
-      "score": 87,
-      "level": "高",
+      "score": 100,
+      "level": "官方公告",
       "predicted": true,
-      "official_status": "",
+      "official_status": "[停班停課通知]連江縣:8/9已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥0836-22111。",
       "weather": {
         "precip_mm": 16.3,
         "wind_kmh": 53.5,
@@ -555,6 +556,7 @@
       "rain_reference_mm": 200,
       "mountain_rain_reference_mm": null,
       "reasons": [
+        "人事行政總處／NCDR 已公告全縣市停班及停課",
         "陣風明顯增強",
         "平均風接近／達7級門檻",
         "預報中心路徑接近"
@@ -961,7 +963,8 @@
     "dgpa": "https://www.dgpa.gov.tw/typh/daily/nds.html",
     "open_meteo": "https://open-meteo.com/",
     "dgpa_rules": "https://www.dgpa.gov.tw/information?pid=12961&uid=84",
-    "cwa_live": "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Warning/W-C0034-005.json"
+    "cwa_live": "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Warning/W-C0034-005.json",
+    "ncdr_closures": "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33"
   },
   "health": {
     "typhoon_error": null,
@@ -977,7 +980,10 @@
     "typhoon_diagnostics": [],
     "typhoon_empty_verified": false,
     "typhoon_count": 2,
-    "cwa_sent": "2026-08-08T21:08:30+08:00"
+    "cwa_sent": "2026-08-08T21:08:30+08:00",
+    "ncdr_error": null,
+    "ncdr_entry_count": 1,
+    "closure_machine_source": "NCDR CAP"
   },
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "typhoon_updated_at": "2026-08-08T21:08:30+08:00",
