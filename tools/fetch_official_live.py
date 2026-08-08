@@ -127,9 +127,11 @@ def fetch_ncdr() -> dict[str, Any]:
             break
 
     return {
+        "fetch_ok": True,
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source_url": NCDR_FEED,
         "entries": entries,
+        "error": None,
     }
 
 
@@ -137,12 +139,25 @@ def main() -> None:
     out = Path("data")
     out.mkdir(exist_ok=True)
 
+    # CWA is the critical live source for the storm map. Failure here should fail
+    # the workflow so stale cyclone data is visible as a real pipeline problem.
     cwa = get(CWA_URL).json()
     (out / "cwa-live.json").write_text(
         json.dumps(cwa, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
 
-    ncdr = fetch_ncdr()
+    # NCDR is an official machine-readable fallback for closures, but it must
+    # never block the CWA storm refresh when its endpoint is temporarily down.
+    try:
+        ncdr = fetch_ncdr()
+    except Exception as exc:
+        ncdr = {
+            "fetch_ok": False,
+            "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "source_url": NCDR_FEED,
+            "entries": [],
+            "error": str(exc),
+        }
     (out / "ncdr-live.json").write_text(
         json.dumps(ncdr, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
@@ -150,7 +165,8 @@ def main() -> None:
     print(
         "Fetched official live feeds:",
         "CWA bytes", (out / "cwa-live.json").stat().st_size,
-        "NCDR entries", len(ncdr["entries"]),
+        "NCDR ok", ncdr.get("fetch_ok"),
+        "entries", len(ncdr.get("entries", [])),
     )
 
 
