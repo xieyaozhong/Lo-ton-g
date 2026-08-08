@@ -1,6 +1,6 @@
 {
-  "schema": 1,
-  "generated_at": "2026-08-08T22:01:57+08:00",
+  "schema": 2,
+  "generated_at": "2026-08-08T22:26:06+08:00",
   "target_date": "2026-08-09",
   "typhoons": [],
   "jma_updated_at": null,
@@ -101,6 +101,27 @@
   },
   "predictions": [
     {
+      "county": "連江縣",
+      "lat": 26.1605,
+      "lon": 119.9517,
+      "score": 69,
+      "level": "中高",
+      "predicted": true,
+      "official_status": "",
+      "weather": {
+        "precip_mm": 16.3,
+        "wind_kmh": 53.5,
+        "gust_kmh": 72.7
+      },
+      "closest_track_km": null,
+      "rain_reference_mm": 200,
+      "mountain_rain_reference_mm": null,
+      "reasons": [
+        "陣風明顯增強",
+        "平均風接近／達7級門檻"
+      ]
+    },
+    {
       "county": "基隆市",
       "lat": 25.1283,
       "lon": 121.7419,
@@ -200,6 +221,26 @@
       "mountain_rain_reference_mm": 200,
       "reasons": [
         "陣風明顯增強"
+      ]
+    },
+    {
+      "county": "澎湖縣",
+      "lat": 23.5712,
+      "lon": 119.5793,
+      "score": 24,
+      "level": "低",
+      "predicted": false,
+      "official_status": "",
+      "weather": {
+        "precip_mm": 0.0,
+        "wind_kmh": 39.3,
+        "gust_kmh": 48.2
+      },
+      "closest_track_km": null,
+      "rain_reference_mm": 350,
+      "mountain_rain_reference_mm": null,
+      "reasons": [
+        "平均風偏強"
       ]
     },
     {
@@ -304,11 +345,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 22.6,
-        "wind_kmh": 23.1,
-        "gust_kmh": 61.9
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -322,11 +359,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 11.3,
-        "wind_kmh": 16.4,
-        "gust_kmh": 36.7
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -345,20 +378,6 @@
         "wind_kmh": 19.0,
         "gust_kmh": 42.5
       },
-      "closest_track_km": null,
-      "rain_reference_mm": 350,
-      "mountain_rain_reference_mm": null,
-      "reasons": []
-    },
-    {
-      "county": "澎湖縣",
-      "lat": 23.5712,
-      "lon": 119.5793,
-      "score": 0,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
-      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -390,11 +409,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 16.8,
-        "wind_kmh": 14.5,
-        "gust_kmh": 29.5
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -429,20 +444,6 @@
       "reasons": []
     },
     {
-      "county": "連江縣",
-      "lat": 26.1605,
-      "lon": 119.9517,
-      "score": 0,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
-      "weather": {},
-      "closest_track_km": null,
-      "rain_reference_mm": 200,
-      "mountain_rain_reference_mm": null,
-      "reasons": []
-    },
-    {
       "county": "金門縣",
       "lat": 24.4368,
       "lon": 118.3186,
@@ -450,7 +451,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 0.0,
+        "wind_kmh": 30.2,
+        "gust_kmh": 51.5
+      },
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -482,11 +487,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 9.0,
-        "wind_kmh": 13.5,
-        "gust_kmh": 39.2
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -504,14 +505,23 @@
   "health": {
     "typhoon_error": null,
     "dgpa_error": null,
-    "weather_error_count": 5,
+    "weather_error_count": 6,
     "weather_errors": [
-      "花蓮縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "臺東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "澎湖縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "金門縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "連江縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
-    ]
+      "臺南市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "高雄市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "屏東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "宜蘭縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "花蓮縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+    ],
+    "typhoon_diagnostics": [],
+    "typhoon_empty_verified": true
   },
-  "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。"
+  "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
+  "typhoon_updated_at": null,
+  "typhoon_source": "JMA 防災氣象 XML（即時）",
+  "freshness_policy": {
+    "typhoon_and_closure_refresh_minutes": 5,
+    "page_poll_minutes": 5,
+    "rule": "來源失敗會顯示錯誤，不以空資料冒充無颱風或無公告"
+  }
 }
