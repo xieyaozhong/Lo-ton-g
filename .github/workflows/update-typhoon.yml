@@ -7,6 +7,7 @@ on:
       - 'tools/update_typhoon_data.py'
       - 'tools/hotfix_typhoon_data.py'
       - 'tools/fetch_official_live.py'
+      - 'tools/apply_ncdr.py'
       - '.github/workflows/update-typhoon.yml'
   schedule:
     - cron: '*/5 * * * *'
@@ -48,8 +49,11 @@ jobs:
       - name: Fetch official CWA and NCDR live data
         run: python tools/fetch_official_live.py
 
-      - name: Calibrate live typhoon and closure data
+      - name: Calibrate live typhoon and route data
         run: python tools/hotfix_typhoon_data.py
+
+      - name: Merge official NCDR closure notices
+        run: python tools/apply_ncdr.py
 
       - name: Commit data only when changed
         run: |
