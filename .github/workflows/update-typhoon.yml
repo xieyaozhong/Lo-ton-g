@@ -1,6 +1,11 @@
 name: Update typhoon dashboard
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/update_typhoon_data.py'
+      - '.github/workflows/update-typhoon.yml'
   schedule:
     - cron: '*/20 * * * *'
   workflow_dispatch:
