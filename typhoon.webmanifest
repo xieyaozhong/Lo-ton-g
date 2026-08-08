@@ -1,0 +1,23 @@
+{
+  "id": "./typhoon.html",
+  "name": "風眼｜颱風戰情室",
+  "short_name": "風眼",
+  "description": "中央氣象署颱風路徑、風圈、停班停課官方公告與兩日風雨模型估計。",
+  "start_url": "./typhoon.html",
+  "scope": "./typhoon.html",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#03101a",
+  "theme_color": "#03111d",
+  "lang": "zh-Hant",
+  "orientation": "portrait-primary",
+  "categories": ["weather", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/typhoon-eye.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
