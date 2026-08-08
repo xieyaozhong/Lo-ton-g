@@ -20,7 +20,6 @@ OUT = Path("data/typhoon-dashboard.json")
 
 
 def likelihood_from_score(score: int) -> int:
-    """Convert the internal risk index into an intuitive model-likelihood display."""
     if score <= 0:
         return 2
     p = 100.0 / (1.0 + math.exp(-(float(score) - 52.0) / 10.5))
@@ -72,6 +71,52 @@ def confidence_for(day_offset: int, wx: dict[str, Any], distance: float | None) 
     return "中低" if distance is not None else "較低"
 
 
+def weather_from_daily(daily: dict[str, Any]) -> dict[str, dict[str, float | None]]:
+    result: dict[str, dict[str, float | None]] = {}
+    times = daily.get("time", []) or []
+    for i, day in enumerate(times):
+        def pick(key: str) -> float | None:
+            values = daily.get(key, []) or []
+            if i >= len(values) or values[i] is None:
+                return None
+            return float(values[i])
+        result[str(day)] = {
+            "precip_mm": pick("precipitation_sum"),
+            "wind_kmh": pick("wind_speed_10m_max"),
+            "gust_kmh": pick("wind_gusts_10m_max"),
+        }
+    return result
+
+
+def fetch_weather_batch() -> tuple[dict[str, dict[str, Any]], list[str]]:
+    """Open-Meteo supports comma-separated coordinates, so fetch all 22 counties once."""
+    params = {
+        "latitude": ",".join(str(c["lat"]) for c in base.COUNTIES),
+        "longitude": ",".join(str(c["lon"]) for c in base.COUNTIES),
+        "daily": "precipitation_sum,wind_speed_10m_max,wind_gusts_10m_max",
+        "forecast_days": 3,
+        "timezone": "Asia/Taipei",
+    }
+    errors: list[str] = []
+    try:
+        payload = base.get(base.OPEN_METEO, params=params).json()
+    except Exception as exc:
+        return {c["name"]: {} for c in base.COUNTIES}, [f"batch: {exc}"]
+
+    rows = payload if isinstance(payload, list) else [payload]
+    out: dict[str, dict[str, Any]] = {}
+    for i, county in enumerate(base.COUNTIES):
+        try:
+            row = rows[i] if i < len(rows) else {}
+            out[county["name"]] = weather_from_daily(row.get("daily", {}) if isinstance(row, dict) else {})
+            if not out[county["name"]]:
+                errors.append(f"{county['name']}: no daily weather")
+        except Exception as exc:
+            out[county["name"]] = {}
+            errors.append(f"{county['name']}: {exc}")
+    return out, errors
+
+
 def build() -> None:
     if not OUT.exists():
         raise SystemExit("dashboard JSON missing")
@@ -85,14 +130,7 @@ def build() -> None:
         if isinstance(row, dict)
     }
 
-    weather_errors: list[str] = []
-    weather_by_county: dict[str, dict[str, Any]] = {}
-    for county in base.COUNTIES:
-        try:
-            weather_by_county[county["name"]] = base.fetch_open_meteo(county)
-        except Exception as exc:
-            weather_by_county[county["name"]] = {}
-            weather_errors.append(f"{county['name']}: {exc}")
+    weather_by_county, weather_errors = fetch_weather_batch()
 
     days = []
     for day_offset, date_iso in enumerate(dates, start=1):
