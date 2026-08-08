@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "generated_at": null,
+  "target_date": null,
+  "typhoons": [],
+  "jma_updated_at": null,
+  "official_closures": {
+    "fetch_ok": false,
+    "updated_text": "",
+    "no_notice": false,
+    "rows": []
+  },
+  "predictions": [],
+  "sources": {
+    "cwa_typhoon": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html",
+    "cwa_route": "https://www.cwa.gov.tw/V8/C/P/Typhoon/PTA.html",
+    "jma_xml": "https://www.data.jma.go.jp/developer/xml/feed/extra.xml",
+    "dgpa": "https://www.dgpa.gov.tw/typh/daily/nds.html?uid=31",
+    "open_meteo": "https://open-meteo.com/",
+    "dgpa_rules": "https://www.dgpa.gov.tw/information?pid=12961&uid=84"
+  },
+  "health": {
+    "typhoon_error": "waiting for first workflow run",
+    "dgpa_error": "waiting for first workflow run",
+    "weather_error_count": 0,
+    "weather_errors": []
+  },
+  "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。"
+}
