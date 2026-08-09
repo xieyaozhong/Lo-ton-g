@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-09T23:58:37+08:00",
+  "generated_at": "2026-08-10T00:39:01+08:00",
   "target_date": "2026-08-10",
   "typhoons": [
     {
@@ -753,429 +753,19 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-09T23:58:29+08:00",
+    "updated_at": "2026-08-10T00:38:55+08:00",
     "days": [
       {
-        "date": "2026-08-10",
+        "date": "2026-08-11",
         "day_offset": 1,
         "counties": [
           {
             "county": "連江縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 100,
-            "likelihood_pct": 97,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 14.0,
-              "wind_kmh": 57.4,
-              "gust_kmh": 78.5
-            },
-            "closest_track_km": 231.5,
-            "reasons": [
-              "陣風達強風區間",
-              "平均風接近／達7級門檻",
-              "預報中心路徑接近"
-            ]
-          },
-          {
-            "county": "新竹縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 50,
-            "likelihood_pct": 45,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 0.1,
-              "wind_kmh": 37.6,
-              "gust_kmh": 77.0
-            },
-            "closest_track_km": 409.8,
-            "reasons": [
-              "陣風達強風區間",
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "新竹市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 34,
-            "likelihood_pct": 15,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 0.3,
-              "wind_kmh": 34.4,
-              "gust_kmh": 69.5
-            },
-            "closest_track_km": 410.0,
-            "reasons": [
-              "陣風明顯增強",
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "南投縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 9.4,
-              "wind_kmh": 11.0,
-              "gust_kmh": 29.2
-            },
-            "closest_track_km": 496.8,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "嘉義市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 9.1,
-              "wind_kmh": 22.3,
-              "gust_kmh": 49.7
-            },
-            "closest_track_km": 531.2,
-            "reasons": []
-          },
-          {
-            "county": "嘉義縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 2.2,
-              "wind_kmh": 22.0,
-              "gust_kmh": 51.1
-            },
-            "closest_track_km": 529.6,
-            "reasons": []
-          },
-          {
-            "county": "基隆市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 4.4,
-              "wind_kmh": 13.3,
-              "gust_kmh": 31.7
-            },
-            "closest_track_km": 422.1,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "宜蘭縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 11.6,
-              "wind_kmh": 7.7,
-              "gust_kmh": 24.8
-            },
-            "closest_track_km": 460.2,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "屏東縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 23.6,
-              "wind_kmh": 15.8,
-              "gust_kmh": 41.4
-            },
-            "closest_track_km": 633.9,
-            "reasons": []
-          },
-          {
-            "county": "彰化縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 1.2,
-              "wind_kmh": 23.1,
-              "gust_kmh": 51.8
-            },
-            "closest_track_km": 470.1,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "新北市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 9.9,
-              "wind_kmh": 7.4,
-              "gust_kmh": 23.0
-            },
-            "closest_track_km": 416.2,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "桃園市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 4.6,
-              "wind_kmh": 8.6,
-              "gust_kmh": 21.6
-            },
-            "closest_track_km": 408.9,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "澎湖縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 0.1,
-              "wind_kmh": 31.7,
-              "gust_kmh": 38.9
-            },
-            "closest_track_km": 505.9,
-            "reasons": []
-          },
-          {
-            "county": "臺中市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 6.1,
-              "wind_kmh": 22.1,
-              "gust_kmh": 52.6
-            },
-            "closest_track_km": 466.7,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "臺北市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 19.7,
-              "wind_kmh": 9.1,
-              "gust_kmh": 25.2
-            },
-            "closest_track_km": 419.5,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "臺南市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 12.0,
-              "wind_kmh": 19.3,
-              "gust_kmh": 41.8
-            },
-            "closest_track_km": 578.3,
-            "reasons": []
-          },
-          {
-            "county": "臺東縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 27.3,
-              "gust_kmh": 57.6
-            },
-            "closest_track_km": 628.9,
-            "reasons": []
-          },
-          {
-            "county": "花蓮縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 4.6,
-              "wind_kmh": 6.3,
-              "gust_kmh": 22.7
-            },
-            "closest_track_km": 521.2,
-            "reasons": []
-          },
-          {
-            "county": "苗栗縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 1.1,
-              "wind_kmh": 30.2,
-              "gust_kmh": 61.9
-            },
-            "closest_track_km": 429.3,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "金門縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 10,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 1.2,
-              "wind_kmh": 30.0,
-              "gust_kmh": 51.8
-            },
-            "closest_track_km": 414.7,
-            "reasons": [
-              "可能受外圍環流影響"
-            ]
-          },
-          {
-            "county": "雲林縣",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 1.8,
-              "wind_kmh": 27.2,
-              "gust_kmh": 56.9
-            },
-            "closest_track_km": 506.1,
-            "reasons": []
-          },
-          {
-            "county": "高雄市",
-            "date": "2026-08-10",
-            "day_offset": 1,
-            "risk_score": 0,
-            "likelihood_pct": 2,
-            "confidence": "較高",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 11.7,
-              "wind_kmh": 16.0,
-              "gust_kmh": 42.8
-            },
-            "closest_track_km": 620.4,
-            "reasons": []
-          }
-        ]
-      },
-      {
-        "date": "2026-08-11",
-        "day_offset": 2,
-        "counties": [
-          {
-            "county": "連江縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 24,
             "likelihood_pct": 6,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1191,10 +781,10 @@
           {
             "county": "南投縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1208,10 +798,10 @@
           {
             "county": "嘉義市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1225,10 +815,10 @@
           {
             "county": "嘉義縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1242,10 +832,10 @@
           {
             "county": "基隆市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1259,10 +849,10 @@
           {
             "county": "宜蘭縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1276,10 +866,10 @@
           {
             "county": "屏東縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1293,10 +883,10 @@
           {
             "county": "彰化縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1310,10 +900,10 @@
           {
             "county": "新北市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1327,10 +917,10 @@
           {
             "county": "新竹市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1344,10 +934,10 @@
           {
             "county": "新竹縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1361,10 +951,10 @@
           {
             "county": "桃園市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1378,10 +968,10 @@
           {
             "county": "澎湖縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1395,10 +985,10 @@
           {
             "county": "臺中市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1412,10 +1002,10 @@
           {
             "county": "臺北市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1429,10 +1019,10 @@
           {
             "county": "臺南市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1446,10 +1036,10 @@
           {
             "county": "臺東縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1463,10 +1053,10 @@
           {
             "county": "花蓮縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1480,10 +1070,10 @@
           {
             "county": "苗栗縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1497,10 +1087,10 @@
           {
             "county": "金門縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1514,10 +1104,10 @@
           {
             "county": "雲林縣",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1531,10 +1121,10 @@
           {
             "county": "高雄市",
             "date": "2026-08-11",
-            "day_offset": 2,
+            "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較高",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1546,10 +1136,390 @@
             "reasons": []
           }
         ]
+      },
+      {
+        "date": "2026-08-12",
+        "day_offset": 2,
+        "counties": [
+          {
+            "county": "南投縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 4.2,
+              "wind_kmh": 9.6,
+              "gust_kmh": 27.0
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "嘉義市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 3.6,
+              "wind_kmh": 15.5,
+              "gust_kmh": 29.5
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "嘉義縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 0.7,
+              "wind_kmh": 15.9,
+              "gust_kmh": 33.1
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "基隆市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 5.2,
+              "wind_kmh": 10.5,
+              "gust_kmh": 34.2
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "宜蘭縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 7.9,
+              "wind_kmh": 7.9,
+              "gust_kmh": 22.3
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "屏東縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 34.4,
+              "wind_kmh": 13.7,
+              "gust_kmh": 28.1
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "彰化縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 3.1,
+              "wind_kmh": 11.9,
+              "gust_kmh": 30.6
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "新北市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 3.7,
+              "wind_kmh": 8.7,
+              "gust_kmh": 28.4
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "新竹市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 0.7,
+              "wind_kmh": 18.8,
+              "gust_kmh": 42.8
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "新竹縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 0.5,
+              "wind_kmh": 21.6,
+              "gust_kmh": 49.0
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "桃園市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 3.3,
+              "wind_kmh": 13.0,
+              "gust_kmh": 34.9
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "澎湖縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 6.4,
+              "wind_kmh": 29.7,
+              "gust_kmh": 37.8
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "臺中市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 3.4,
+              "wind_kmh": 14.0,
+              "gust_kmh": 31.0
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "臺北市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 3.4,
+              "wind_kmh": 12.9,
+              "gust_kmh": 35.6
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "臺南市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 8.7,
+              "wind_kmh": 17.6,
+              "gust_kmh": 37.4
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "臺東縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 11.9,
+              "wind_kmh": 13.8,
+              "gust_kmh": 29.5
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "花蓮縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 7.1,
+              "wind_kmh": 6.5,
+              "gust_kmh": 24.1
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "苗栗縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 0.1,
+              "wind_kmh": 18.7,
+              "gust_kmh": 42.1
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "連江縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 5.7,
+              "wind_kmh": 32.9,
+              "gust_kmh": 42.5
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "金門縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 2.2,
+              "wind_kmh": 24.5,
+              "gust_kmh": 40.3
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "雲林縣",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 0.1,
+              "wind_kmh": 17.0,
+              "gust_kmh": 32.8
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "高雄市",
+            "date": "2026-08-12",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 17.6,
+              "wind_kmh": 15.6,
+              "gust_kmh": 40.0
+            },
+            "closest_track_km": null,
+            "reasons": []
+          }
+        ]
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-09T23:58:37+08:00"
+    "rescored_at": "2026-08-10T00:39:01+08:00"
   },
   "typhoon_updated_at": "2026-08-09T23:22:46+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
