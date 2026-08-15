@@ -1,130 +1,8 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-15T13:55:32+08:00",
+  "generated_at": "2026-08-15T14:29:26+08:00",
   "target_date": "2026-08-16",
-  "typhoons": [
-    {
-      "event_id": "CWA-2026-17",
-      "number": "17",
-      "name": "南卡",
-      "name_en": "NANGKA",
-      "remark": "",
-      "class": "熱帶性低氣壓",
-      "intensity": "熱帶性低氣壓",
-      "area_class": "",
-      "report_time": "2026-08-14T14:00:00+08:00",
-      "current": {
-        "time": "2026-08-14T14:00:00+08:00",
-        "kind": "actual",
-        "lat": 28.5,
-        "lon": 153.9,
-        "location": "",
-        "pressure_hpa": 998,
-        "direction": "東",
-        "speed_kmh": 7.0,
-        "max_wind_ms": 15.0,
-        "max_gust_ms": 23.0,
-        "forecast_radius_km": null,
-        "moving_prediction": "以每小時11公里速度，向東進行",
-        "radius15_km": null,
-        "radius25_km": null
-      },
-      "track": [
-        {
-          "time": "2026-08-13T14:00:00+08:00",
-          "kind": "actual",
-          "lat": 27.5,
-          "lon": 149.5,
-          "location": "",
-          "pressure_hpa": 995,
-          "direction": "東北東",
-          "speed_kmh": 33.0,
-          "max_wind_ms": 18.0,
-          "max_gust_ms": 25.0,
-          "forecast_radius_km": null
-        },
-        {
-          "time": "2026-08-13T20:00:00+08:00",
-          "kind": "actual",
-          "lat": 28.0,
-          "lon": 151.0,
-          "location": "",
-          "pressure_hpa": 995,
-          "direction": "東北東",
-          "speed_kmh": 26.0,
-          "max_wind_ms": 18.0,
-          "max_gust_ms": 25.0,
-          "forecast_radius_km": null
-        },
-        {
-          "time": "2026-08-14T02:00:00+08:00",
-          "kind": "actual",
-          "lat": 28.5,
-          "lon": 153.4,
-          "location": "",
-          "pressure_hpa": 995,
-          "direction": "東北東",
-          "speed_kmh": 40.0,
-          "max_wind_ms": 18.0,
-          "max_gust_ms": 25.0,
-          "forecast_radius_km": null
-        },
-        {
-          "time": "2026-08-14T08:00:00+08:00",
-          "kind": "actual",
-          "lat": 28.5,
-          "lon": 153.5,
-          "location": "",
-          "pressure_hpa": 995,
-          "direction": "東",
-          "speed_kmh": 2.0,
-          "max_wind_ms": 18.0,
-          "max_gust_ms": 25.0,
-          "forecast_radius_km": null
-        },
-        {
-          "time": "2026-08-14T14:00:00+08:00",
-          "kind": "actual",
-          "lat": 28.5,
-          "lon": 153.9,
-          "location": "",
-          "pressure_hpa": 998,
-          "direction": "東",
-          "speed_kmh": 7.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
-          "forecast_radius_km": null
-        },
-        {
-          "time": "2026-08-14T20:00:00+08:00",
-          "kind": "forecast",
-          "lat": 28.5,
-          "lon": 154.6,
-          "location": "",
-          "pressure_hpa": 1000,
-          "direction": "東",
-          "speed_kmh": 11.0,
-          "max_wind_ms": 12.0,
-          "max_gust_ms": 20.0,
-          "forecast_radius_km": 50.0
-        },
-        {
-          "time": "2026-08-15T02:00:00+08:00",
-          "kind": "forecast",
-          "lat": 28.5,
-          "lon": 155.3,
-          "location": "",
-          "pressure_hpa": 1000,
-          "direction": "東",
-          "speed_kmh": 11.0,
-          "max_wind_ms": 10.0,
-          "max_gust_ms": 15.0,
-          "forecast_radius_km": 100.0
-        }
-      ],
-      "source_url": "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Warning/W-C0034-005.json"
-    }
-  ],
+  "typhoons": [],
   "jma_updated_at": "2026-08-14T15:01:12+08:00",
   "official_closures": {
     "fetch_ok": true,
@@ -619,9 +497,9 @@
     ],
     "holiday_weather_error_count": 0,
     "holiday_weather_errors": [],
-    "typhoon_count": 1,
+    "typhoon_count": 0,
     "cwa_sent": "2026-08-14T15:01:12+08:00",
-    "typhoon_empty_verified": false,
+    "typhoon_empty_verified": true,
     "ncdr_error": null,
     "ncdr_entry_count": 0,
     "closure_machine_source": "NCDR CAP"
@@ -629,7 +507,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-15T13:34:02+08:00",
+    "updated_at": "2026-08-15T14:29:19+08:00",
     "days": [
       {
         "date": "2026-08-16",
@@ -1393,7 +1271,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-15T13:55:33+08:00"
+    "rescored_at": "2026-08-15T14:29:26+08:00"
   },
   "typhoon_updated_at": "2026-08-14T15:01:12+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
