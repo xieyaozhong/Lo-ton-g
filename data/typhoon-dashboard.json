@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-17T06:47:53+08:00",
+  "generated_at": "2026-08-17T07:02:35+08:00",
   "target_date": "2026-08-18",
   "typhoons": [],
   "jma_updated_at": "2026-08-14T15:01:12+08:00",
@@ -111,8 +111,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 2.4,
-        "wind_kmh": 36.7,
-        "gust_kmh": 70.9
+        "wind_kmh": 33.9,
+        "gust_kmh": 67.3
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -131,8 +131,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 1.0,
-        "wind_kmh": 7.8,
-        "gust_kmh": 21.6
+        "wind_kmh": 6.5,
+        "gust_kmh": 19.1
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -147,7 +147,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 6.3,
+        "wind_kmh": 6.9,
+        "gust_kmh": 18.7
+      },
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -161,7 +165,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 6.6,
+        "wind_kmh": 6.8,
+        "gust_kmh": 20.2
+      },
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -177,8 +185,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.6,
-        "wind_kmh": 22.0,
-        "gust_kmh": 49.7
+        "wind_kmh": 21.1,
+        "gust_kmh": 47.5
       },
       "closest_track_km": null,
       "rain_reference_mm": 200,
@@ -193,11 +201,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 4.8,
-        "wind_kmh": 13.9,
-        "gust_kmh": 37.4
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -227,8 +231,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 2.1,
-        "wind_kmh": 9.4,
-        "gust_kmh": 25.2
+        "wind_kmh": 8.6,
+        "gust_kmh": 24.1
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -245,8 +249,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.0,
-        "wind_kmh": 23.7,
-        "gust_kmh": 51.8
+        "wind_kmh": 23.4,
+        "gust_kmh": 49.7
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -263,8 +267,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 1.9,
-        "wind_kmh": 15.1,
-        "gust_kmh": 35.3
+        "wind_kmh": 12.6,
+        "gust_kmh": 34.6
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -281,8 +285,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.3,
-        "wind_kmh": 11.7,
-        "gust_kmh": 33.5
+        "wind_kmh": 19.6,
+        "gust_kmh": 41.8
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -299,8 +303,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.0,
-        "wind_kmh": 27.3,
-        "gust_kmh": 60.8
+        "wind_kmh": 26.1,
+        "gust_kmh": 57.6
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -315,11 +319,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 0.0,
-        "wind_kmh": 14.1,
-        "gust_kmh": 18.0
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -335,8 +335,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.6,
-        "wind_kmh": 9.4,
-        "gust_kmh": 27.0
+        "wind_kmh": 8.1,
+        "gust_kmh": 22.3
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -354,7 +354,7 @@
       "weather": {
         "precip_mm": 0.0,
         "wind_kmh": 21.2,
-        "gust_kmh": 48.6
+        "gust_kmh": 47.5
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -369,7 +369,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 4.7,
+        "wind_kmh": 8.5,
+        "gust_kmh": 23.4
+      },
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -383,11 +387,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 20.4,
-        "wind_kmh": 17.4,
-        "gust_kmh": 43.9
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -401,11 +401,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 10.9,
-        "wind_kmh": 8.8,
-        "gust_kmh": 27.7
-      },
+      "weather": {},
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -421,8 +417,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.7,
-        "wind_kmh": 12.9,
-        "gust_kmh": 32.0
+        "wind_kmh": 13.4,
+        "gust_kmh": 33.1
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -439,8 +435,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 9.9,
-        "wind_kmh": 37.3,
-        "gust_kmh": 48.2
+        "wind_kmh": 36.4,
+        "gust_kmh": 46.4
       },
       "closest_track_km": null,
       "rain_reference_mm": 200,
@@ -455,7 +451,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 3.2,
+        "wind_kmh": 7.8,
+        "gust_kmh": 20.5
+      },
       "closest_track_km": null,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -491,11 +491,11 @@
     "dgpa_error": null,
     "weather_error_count": 6,
     "weather_errors": [
-      "雲林縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "嘉義市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "嘉義縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "臺南市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "高雄市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+      "高雄市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "屏東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "宜蘭縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "花蓮縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "臺東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
     ],
     "holiday_weather_error_count": 0,
     "holiday_weather_errors": [],
@@ -509,7 +509,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-17T06:28:10+08:00",
+    "updated_at": "2026-08-17T07:02:31+08:00",
     "days": [
       {
         "date": "2026-08-18",
@@ -1279,7 +1279,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-17T06:47:53+08:00"
+    "rescored_at": "2026-08-17T07:02:35+08:00"
   },
   "typhoon_updated_at": "2026-08-14T15:01:12+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
