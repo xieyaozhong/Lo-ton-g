@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-17T15:27:34+08:00",
+  "generated_at": "2026-08-17T16:07:41+08:00",
   "target_date": "2026-08-18",
   "typhoons": [],
   "jma_updated_at": "2026-08-14T15:01:12+08:00",
@@ -503,7 +503,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-17T15:27:31+08:00",
+    "updated_at": "2026-08-17T16:07:37+08:00",
     "days": [
       {
         "date": "2026-08-18",
@@ -520,8 +520,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 1.9,
-              "wind_kmh": 34.1,
-              "gust_kmh": 67.3
+              "wind_kmh": 38.1,
+              "gust_kmh": 74.5
             },
             "closest_track_km": null,
             "reasons": [
@@ -539,8 +539,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 7.1,
-              "wind_kmh": 7.1,
-              "gust_kmh": 19.4
+              "wind_kmh": 7.5,
+              "gust_kmh": 19.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -556,8 +556,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 4.2,
-              "wind_kmh": 7.0,
-              "gust_kmh": 20.2
+              "wind_kmh": 7.4,
+              "gust_kmh": 19.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -573,8 +573,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 8.3,
-              "wind_kmh": 7.8,
-              "gust_kmh": 21.2
+              "wind_kmh": 8.1,
+              "gust_kmh": 22.7
             },
             "closest_track_km": null,
             "reasons": []
@@ -590,8 +590,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 2.3,
-              "wind_kmh": 21.3,
-              "gust_kmh": 48.2
+              "wind_kmh": 19.9,
+              "gust_kmh": 46.1
             },
             "closest_track_km": null,
             "reasons": []
@@ -607,8 +607,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 4.0,
-              "wind_kmh": 10.0,
-              "gust_kmh": 30.2
+              "wind_kmh": 14.5,
+              "gust_kmh": 34.2
             },
             "closest_track_km": null,
             "reasons": []
@@ -624,8 +624,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 3.2,
-              "wind_kmh": 7.4,
-              "gust_kmh": 14.4
+              "wind_kmh": 7.8,
+              "gust_kmh": 23.0
             },
             "closest_track_km": null,
             "reasons": []
@@ -641,8 +641,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 3.1,
-              "wind_kmh": 9.1,
-              "gust_kmh": 24.8
+              "wind_kmh": 8.6,
+              "gust_kmh": 23.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -658,8 +658,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.0,
-              "wind_kmh": 23.2,
-              "gust_kmh": 49.7
+              "wind_kmh": 22.7,
+              "gust_kmh": 49.0
             },
             "closest_track_km": null,
             "reasons": []
@@ -675,8 +675,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.0,
-              "wind_kmh": 8.5,
-              "gust_kmh": 28.8
+              "wind_kmh": 12.8,
+              "gust_kmh": 30.6
             },
             "closest_track_km": null,
             "reasons": []
@@ -692,8 +692,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.9,
-              "wind_kmh": 19.7,
-              "gust_kmh": 44.6
+              "wind_kmh": 9.8,
+              "gust_kmh": 27.7
             },
             "closest_track_km": null,
             "reasons": []
@@ -709,8 +709,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.0,
-              "wind_kmh": 25.7,
-              "gust_kmh": 57.2
+              "wind_kmh": 25.9,
+              "gust_kmh": 56.5
             },
             "closest_track_km": null,
             "reasons": []
@@ -726,8 +726,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.0,
-              "wind_kmh": 13.8,
-              "gust_kmh": 17.6
+              "wind_kmh": 21.5,
+              "gust_kmh": 26.3
             },
             "closest_track_km": null,
             "reasons": []
@@ -743,8 +743,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 1.0,
-              "wind_kmh": 7.8,
-              "gust_kmh": 22.3
+              "wind_kmh": 8.1,
+              "gust_kmh": 21.6
             },
             "closest_track_km": null,
             "reasons": []
@@ -760,8 +760,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.0,
-              "wind_kmh": 20.7,
-              "gust_kmh": 48.6
+              "wind_kmh": 20.2,
+              "gust_kmh": 46.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -777,8 +777,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 4.4,
-              "wind_kmh": 8.8,
-              "gust_kmh": 24.5
+              "wind_kmh": 9.2,
+              "gust_kmh": 25.2
             },
             "closest_track_km": null,
             "reasons": []
@@ -794,8 +794,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 20.9,
-              "wind_kmh": 17.3,
-              "gust_kmh": 41.8
+              "wind_kmh": 12.8,
+              "gust_kmh": 33.1
             },
             "closest_track_km": null,
             "reasons": []
@@ -811,8 +811,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 11.5,
-              "wind_kmh": 8.9,
-              "gust_kmh": 28.8
+              "wind_kmh": 7.6,
+              "gust_kmh": 24.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -828,8 +828,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.3,
-              "wind_kmh": 12.8,
-              "gust_kmh": 31.3
+              "wind_kmh": 12.1,
+              "gust_kmh": 30.2
             },
             "closest_track_km": null,
             "reasons": []
@@ -845,7 +845,7 @@
             "official_status": "",
             "weather": {
               "precip_mm": 0.8,
-              "wind_kmh": 37.2,
+              "wind_kmh": 36.3,
               "gust_kmh": 47.9
             },
             "closest_track_km": null,
@@ -862,8 +862,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 5.8,
-              "wind_kmh": 6.7,
-              "gust_kmh": 21.6
+              "wind_kmh": 9.8,
+              "gust_kmh": 24.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -879,8 +879,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 7.5,
-              "wind_kmh": 8.7,
-              "gust_kmh": 26.6
+              "wind_kmh": 11.6,
+              "gust_kmh": 33.1
             },
             "closest_track_km": null,
             "reasons": []
@@ -892,63 +892,6 @@
         "day_offset": 2,
         "counties": [
           {
-            "county": "新竹縣",
-            "date": "2026-08-19",
-            "day_offset": 2,
-            "risk_score": 24,
-            "likelihood_pct": 6,
-            "confidence": "較低",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 2.7,
-              "wind_kmh": 28.1,
-              "gust_kmh": 65.5
-            },
-            "closest_track_km": null,
-            "reasons": [
-              "陣風明顯增強"
-            ]
-          },
-          {
-            "county": "連江縣",
-            "date": "2026-08-19",
-            "day_offset": 2,
-            "risk_score": 24,
-            "likelihood_pct": 6,
-            "confidence": "較低",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 8.6,
-              "wind_kmh": 39.7,
-              "gust_kmh": 54.4
-            },
-            "closest_track_km": null,
-            "reasons": [
-              "平均風偏強"
-            ]
-          },
-          {
-            "county": "金門縣",
-            "date": "2026-08-19",
-            "day_offset": 2,
-            "risk_score": 24,
-            "likelihood_pct": 6,
-            "confidence": "較低",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 12.5,
-              "wind_kmh": 32.9,
-              "gust_kmh": 65.2
-            },
-            "closest_track_km": null,
-            "reasons": [
-              "陣風明顯增強"
-            ]
-          },
-          {
             "county": "南投縣",
             "date": "2026-08-19",
             "day_offset": 2,
@@ -959,8 +902,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 27.2,
-              "wind_kmh": 7.4,
-              "gust_kmh": 20.5
+              "wind_kmh": 9.6,
+              "gust_kmh": 27.0
             },
             "closest_track_km": null,
             "reasons": []
@@ -976,8 +919,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 26.7,
-              "wind_kmh": 9.8,
-              "gust_kmh": 23.4
+              "wind_kmh": 12.3,
+              "gust_kmh": 29.9
             },
             "closest_track_km": null,
             "reasons": []
@@ -993,7 +936,7 @@
             "official_status": "",
             "weather": {
               "precip_mm": 34.9,
-              "wind_kmh": 11.9,
+              "wind_kmh": 11.6,
               "gust_kmh": 29.2
             },
             "closest_track_km": null,
@@ -1010,8 +953,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 21.4,
-              "wind_kmh": 14.7,
-              "gust_kmh": 38.9
+              "wind_kmh": 16.8,
+              "gust_kmh": 41.4
             },
             "closest_track_km": null,
             "reasons": []
@@ -1027,8 +970,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 28.2,
-              "wind_kmh": 10.7,
-              "gust_kmh": 26.6
+              "wind_kmh": 10.3,
+              "gust_kmh": 29.2
             },
             "closest_track_km": null,
             "reasons": []
@@ -1044,8 +987,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 36.7,
-              "wind_kmh": 6.3,
-              "gust_kmh": 20.2
+              "wind_kmh": 8.5,
+              "gust_kmh": 21.6
             },
             "closest_track_km": null,
             "reasons": []
@@ -1061,8 +1004,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 31.0,
-              "wind_kmh": 11.6,
-              "gust_kmh": 29.2
+              "wind_kmh": 13.0,
+              "gust_kmh": 31.0
             },
             "closest_track_km": null,
             "reasons": []
@@ -1078,8 +1021,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 9.6,
-              "wind_kmh": 20.3,
-              "gust_kmh": 44.6
+              "wind_kmh": 18.1,
+              "gust_kmh": 42.5
             },
             "closest_track_km": null,
             "reasons": []
@@ -1095,8 +1038,25 @@
             "official_status": "",
             "weather": {
               "precip_mm": 3.4,
-              "wind_kmh": 27.6,
-              "gust_kmh": 59.8
+              "wind_kmh": 23.8,
+              "gust_kmh": 51.1
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "新竹縣",
+            "date": "2026-08-19",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 2.7,
+              "wind_kmh": 24.0,
+              "gust_kmh": 54.7
             },
             "closest_track_km": null,
             "reasons": []
@@ -1112,8 +1072,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 8.3,
-              "wind_kmh": 21.6,
-              "gust_kmh": 50.4
+              "wind_kmh": 18.5,
+              "gust_kmh": 43.9
             },
             "closest_track_km": null,
             "reasons": []
@@ -1129,8 +1089,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 12.0,
-              "wind_kmh": 20.5,
-              "gust_kmh": 27.4
+              "wind_kmh": 28.9,
+              "gust_kmh": 35.6
             },
             "closest_track_km": null,
             "reasons": []
@@ -1146,8 +1106,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 29.3,
-              "wind_kmh": 10.1,
-              "gust_kmh": 28.1
+              "wind_kmh": 13.3,
+              "gust_kmh": 32.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -1163,8 +1123,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 11.7,
-              "wind_kmh": 17.2,
-              "gust_kmh": 40.7
+              "wind_kmh": 16.7,
+              "gust_kmh": 38.5
             },
             "closest_track_km": null,
             "reasons": []
@@ -1180,8 +1140,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 24.3,
-              "wind_kmh": 12.4,
-              "gust_kmh": 30.6
+              "wind_kmh": 11.0,
+              "gust_kmh": 29.9
             },
             "closest_track_km": null,
             "reasons": []
@@ -1197,8 +1157,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 18.4,
-              "wind_kmh": 11.1,
-              "gust_kmh": 28.1
+              "wind_kmh": 5.8,
+              "gust_kmh": 22.3
             },
             "closest_track_km": null,
             "reasons": []
@@ -1214,8 +1174,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 18.6,
-              "wind_kmh": 10.5,
-              "gust_kmh": 36.4
+              "wind_kmh": 9.0,
+              "gust_kmh": 31.7
             },
             "closest_track_km": null,
             "reasons": []
@@ -1231,8 +1191,42 @@
             "official_status": "",
             "weather": {
               "precip_mm": 1.8,
-              "wind_kmh": 14.0,
-              "gust_kmh": 36.4
+              "wind_kmh": 14.6,
+              "gust_kmh": 36.7
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "連江縣",
+            "date": "2026-08-19",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 8.6,
+              "wind_kmh": 36.6,
+              "gust_kmh": 46.8
+            },
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "金門縣",
+            "date": "2026-08-19",
+            "day_offset": 2,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "較低",
+            "official": false,
+            "official_status": "",
+            "weather": {
+              "precip_mm": 12.5,
+              "wind_kmh": 28.3,
+              "gust_kmh": 55.4
             },
             "closest_track_km": null,
             "reasons": []
@@ -1248,8 +1242,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 21.4,
-              "wind_kmh": 13.2,
-              "gust_kmh": 27.0
+              "wind_kmh": 16.8,
+              "gust_kmh": 33.8
             },
             "closest_track_km": null,
             "reasons": []
@@ -1265,8 +1259,8 @@
             "official_status": "",
             "weather": {
               "precip_mm": 51.3,
-              "wind_kmh": 9.4,
-              "gust_kmh": 26.3
+              "wind_kmh": 10.8,
+              "gust_kmh": 32.4
             },
             "closest_track_km": null,
             "reasons": []
@@ -1275,7 +1269,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-17T15:27:35+08:00"
+    "rescored_at": "2026-08-17T16:07:42+08:00"
   },
   "typhoon_updated_at": "2026-08-14T15:01:12+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
