@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-17T10:35:47+08:00",
+  "generated_at": "2026-08-17T11:33:07+08:00",
   "target_date": "2026-08-18",
   "typhoons": [],
   "jma_updated_at": "2026-08-14T15:01:12+08:00",
@@ -102,26 +102,6 @@
   },
   "predictions": [
     {
-      "county": "金門縣",
-      "lat": 24.4368,
-      "lon": 118.3186,
-      "score": 24,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
-      "weather": {
-        "precip_mm": 2.4,
-        "wind_kmh": 33.9,
-        "gust_kmh": 67.3
-      },
-      "closest_track_km": null,
-      "rain_reference_mm": 350,
-      "mountain_rain_reference_mm": null,
-      "reasons": [
-        "陣風明顯增強"
-      ]
-    },
-    {
       "county": "南投縣",
       "lat": 23.9609,
       "lon": 120.9719,
@@ -130,9 +110,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 1.0,
-        "wind_kmh": 6.5,
-        "gust_kmh": 19.1
+        "precip_mm": 2.2,
+        "wind_kmh": 7.1,
+        "gust_kmh": 19.4
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -148,9 +128,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 6.3,
-        "wind_kmh": 6.9,
-        "gust_kmh": 18.7
+        "precip_mm": 3.7,
+        "wind_kmh": 7.0,
+        "gust_kmh": 20.2
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -166,9 +146,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 6.6,
-        "wind_kmh": 6.8,
-        "gust_kmh": 20.2
+        "precip_mm": 6.2,
+        "wind_kmh": 7.8,
+        "gust_kmh": 21.2
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -185,8 +165,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.6,
-        "wind_kmh": 21.1,
-        "gust_kmh": 47.5
+        "wind_kmh": 21.3,
+        "gust_kmh": 48.2
       },
       "closest_track_km": null,
       "rain_reference_mm": 200,
@@ -230,9 +210,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 2.1,
-        "wind_kmh": 8.6,
-        "gust_kmh": 24.1
+        "precip_mm": 2.0,
+        "wind_kmh": 9.1,
+        "gust_kmh": 24.8
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -248,8 +228,8 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 0.0,
-        "wind_kmh": 23.4,
+        "precip_mm": 0.3,
+        "wind_kmh": 23.2,
         "gust_kmh": 49.7
       },
       "closest_track_km": null,
@@ -266,9 +246,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 1.9,
-        "wind_kmh": 12.6,
-        "gust_kmh": 34.6
+        "precip_mm": 1.7,
+        "wind_kmh": 8.5,
+        "gust_kmh": 28.8
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -285,8 +265,8 @@
       "official_status": "",
       "weather": {
         "precip_mm": 0.3,
-        "wind_kmh": 19.6,
-        "gust_kmh": 41.8
+        "wind_kmh": 19.7,
+        "gust_kmh": 44.6
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -302,9 +282,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 0.0,
-        "wind_kmh": 26.1,
-        "gust_kmh": 57.6
+        "precip_mm": 0.1,
+        "wind_kmh": 25.7,
+        "gust_kmh": 57.2
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -334,8 +314,8 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 0.6,
-        "wind_kmh": 8.1,
+        "precip_mm": 2.0,
+        "wind_kmh": 7.8,
         "gust_kmh": 22.3
       },
       "closest_track_km": null,
@@ -352,9 +332,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 0.0,
-        "wind_kmh": 21.2,
-        "gust_kmh": 47.5
+        "precip_mm": 0.8,
+        "wind_kmh": 20.7,
+        "gust_kmh": 48.6
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -370,9 +350,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 4.7,
-        "wind_kmh": 8.5,
-        "gust_kmh": 23.4
+        "precip_mm": 3.3,
+        "wind_kmh": 8.8,
+        "gust_kmh": 24.5
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -416,9 +396,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 0.7,
-        "wind_kmh": 13.4,
-        "gust_kmh": 33.1
+        "precip_mm": 0.9,
+        "wind_kmh": 12.8,
+        "gust_kmh": 31.3
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -434,12 +414,26 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 9.9,
-        "wind_kmh": 36.4,
-        "gust_kmh": 46.4
+        "precip_mm": 1.9,
+        "wind_kmh": 37.2,
+        "gust_kmh": 47.9
       },
       "closest_track_km": null,
       "rain_reference_mm": 200,
+      "mountain_rain_reference_mm": null,
+      "reasons": []
+    },
+    {
+      "county": "金門縣",
+      "lat": 24.4368,
+      "lon": 118.3186,
+      "score": 0,
+      "level": "低",
+      "predicted": false,
+      "official_status": "",
+      "weather": {},
+      "closest_track_km": null,
+      "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
       "reasons": []
     },
@@ -452,9 +446,9 @@
       "predicted": false,
       "official_status": "",
       "weather": {
-        "precip_mm": 3.2,
-        "wind_kmh": 7.8,
-        "gust_kmh": 20.5
+        "precip_mm": 8.9,
+        "wind_kmh": 6.7,
+        "gust_kmh": 21.6
       },
       "closest_track_km": null,
       "rain_reference_mm": 350,
@@ -489,7 +483,7 @@
   "health": {
     "typhoon_error": null,
     "dgpa_error": null,
-    "weather_error_count": 6,
+    "weather_error_count": 7,
     "weather_errors": [
       "高雄市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
       "屏東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
@@ -509,7 +503,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-17T10:35:44+08:00",
+    "updated_at": "2026-08-17T11:33:03+08:00",
     "days": [
       {
         "date": "2026-08-18",
@@ -1281,7 +1275,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-17T10:35:47+08:00"
+    "rescored_at": "2026-08-17T11:33:07+08:00"
   },
   "typhoon_updated_at": "2026-08-14T15:01:12+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
