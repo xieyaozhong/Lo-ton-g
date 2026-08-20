@@ -1,7 +1,7 @@
 {
-  "fetch_ok": true,
-  "fetched_at": "2026-08-20T06:19:18+00:00",
+  "fetch_ok": false,
+  "fetched_at": "2026-08-20T07:11:42+00:00",
   "source_url": "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33",
   "entries": [],
-  "error": null
+  "error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
 }
