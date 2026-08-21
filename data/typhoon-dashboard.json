@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-21T15:50:18+08:00",
+  "generated_at": "2026-08-21T16:21:43+08:00",
   "target_date": "2026-08-22",
   "typhoons": [
     {
@@ -274,11 +274,11 @@
           "lat": 21.2,
           "lon": 108.2,
           "location": "",
-          "pressure_hpa": 998,
+          "pressure_hpa": 995,
           "direction": "西北西",
           "speed_kmh": 12.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
+          "max_wind_ms": 18.0,
+          "max_gust_ms": 25.0,
           "forecast_radius_km": 100.0
         },
         {
@@ -287,11 +287,11 @@
           "lat": 21.2,
           "lon": 108.2,
           "location": "",
-          "pressure_hpa": 998,
+          "pressure_hpa": 995,
           "direction": "北",
           "speed_kmh": 0.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
+          "max_wind_ms": 18.0,
+          "max_gust_ms": 25.0,
           "forecast_radius_km": 120.0
         },
         {
@@ -300,11 +300,11 @@
           "lat": 21.2,
           "lon": 108.2,
           "location": "",
-          "pressure_hpa": 998,
+          "pressure_hpa": 995,
           "direction": "北",
           "speed_kmh": 0.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
+          "max_wind_ms": 18.0,
+          "max_gust_ms": 25.0,
           "forecast_radius_km": 140.0
         },
         {
@@ -313,11 +313,11 @@
           "lat": 20.7,
           "lon": 108.1,
           "location": "",
-          "pressure_hpa": 998,
+          "pressure_hpa": 995,
           "direction": "南",
           "speed_kmh": 5.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
+          "max_wind_ms": 18.0,
+          "max_gust_ms": 25.0,
           "forecast_radius_km": 150.0
         },
         {
@@ -326,24 +326,24 @@
           "lat": 20.6,
           "lon": 108.1,
           "location": "",
-          "pressure_hpa": 998,
+          "pressure_hpa": 995,
           "direction": "南",
           "speed_kmh": 1.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
+          "max_wind_ms": 18.0,
+          "max_gust_ms": 25.0,
           "forecast_radius_km": 180.0
         },
         {
           "time": "2026-08-24T14:00:00+08:00",
           "kind": "forecast",
-          "lat": 19.5,
-          "lon": 108.2,
+          "lat": 20.4,
+          "lon": 108.8,
           "location": "",
-          "pressure_hpa": 998,
-          "direction": "南",
-          "speed_kmh": 5.0,
-          "max_wind_ms": 15.0,
-          "max_gust_ms": 23.0,
+          "pressure_hpa": 995,
+          "direction": "東南東",
+          "speed_kmh": 3.0,
+          "max_wind_ms": 18.0,
+          "max_gust_ms": 25.0,
           "forecast_radius_km": 330.0
         },
         {
@@ -352,9 +352,9 @@
           "lat": 21.2,
           "lon": 109.9,
           "location": "",
-          "pressure_hpa": 1005,
+          "pressure_hpa": 1004,
           "direction": "東北",
-          "speed_kmh": 11.0,
+          "speed_kmh": 6.0,
           "max_wind_ms": 10.0,
           "max_gust_ms": 15.0,
           "forecast_radius_km": 350.0
@@ -363,7 +363,7 @@
       "source_url": "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Warning/W-C0034-005.json"
     }
   ],
-  "jma_updated_at": "2026-08-21T15:16:54+08:00",
+  "jma_updated_at": "2026-08-21T15:54:39+08:00",
   "official_closures": {
     "fetch_ok": true,
     "updated_text": "",
@@ -858,7 +858,7 @@
     "holiday_weather_error_count": 0,
     "holiday_weather_errors": [],
     "typhoon_count": 2,
-    "cwa_sent": "2026-08-21T15:16:54+08:00",
+    "cwa_sent": "2026-08-21T15:54:39+08:00",
     "typhoon_empty_verified": false,
     "ncdr_error": null,
     "ncdr_entry_count": 0,
@@ -867,7 +867,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-21T15:50:14+08:00",
+    "updated_at": "2026-08-21T16:21:38+08:00",
     "days": [
       {
         "date": "2026-08-22",
@@ -1641,9 +1641,9 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-21T15:50:19+08:00"
+    "rescored_at": "2026-08-21T16:21:43+08:00"
   },
-  "typhoon_updated_at": "2026-08-21T15:16:54+08:00",
+  "typhoon_updated_at": "2026-08-21T15:54:39+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
   "freshness_policy": {
     "typhoon_and_closure_refresh_minutes": 5,
