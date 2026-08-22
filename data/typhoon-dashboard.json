@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-23T02:48:24+08:00",
+  "generated_at": "2026-08-23T03:10:43+08:00",
   "target_date": "2026-08-23",
   "typhoons": [
     {
@@ -1182,7 +1182,7 @@
     "typhoon_count": 4,
     "cwa_sent": "2026-08-22T21:34:29+08:00",
     "typhoon_empty_verified": false,
-    "ncdr_error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by ConnectTimeoutError(<HTTPSConnection(host='alerts.ncdr.nat.gov.tw', port=443) at 0x7fa8073c6930>, 'Connection to alerts.ncdr.nat.gov.tw timed out. (connect timeout=20)'))",
+    "ncdr_error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by ConnectTimeoutError(<HTTPSConnection(host='alerts.ncdr.nat.gov.tw', port=443) at 0x7f8cd2c9e210>, 'Connection to alerts.ncdr.nat.gov.tw timed out. (connect timeout=20)'))",
     "ncdr_entry_count": 0,
     "closure_machine_source": "NCDR CAP"
   },
@@ -1961,7 +1961,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-23T02:48:24+08:00"
+    "rescored_at": "2026-08-23T03:10:44+08:00"
   },
   "typhoon_updated_at": "2026-08-22T21:34:29+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
