@@ -1,7 +1,7 @@
 {
   "fetch_ok": false,
-  "fetched_at": "2026-08-23T08:03:04+00:00",
+  "fetched_at": "2026-08-23T08:42:30+00:00",
   "source_url": "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33",
   "entries": [],
-  "error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by ConnectTimeoutError(<HTTPSConnection(host='alerts.ncdr.nat.gov.tw', port=443) at 0x7fec86ddf0e0>, 'Connection to alerts.ncdr.nat.gov.tw timed out. (connect timeout=20)'))"
+  "error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by ConnectTimeoutError(<HTTPSConnection(host='alerts.ncdr.nat.gov.tw', port=443) at 0x7f0097d83b60>, 'Connection to alerts.ncdr.nat.gov.tw timed out. (connect timeout=20)'))"
 }
