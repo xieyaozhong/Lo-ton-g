@@ -1,7 +1,431 @@
 {
-  "fetch_ok": false,
-  "fetched_at": "2026-08-24T03:16:32+00:00",
+  "fetch_ok": true,
+  "fetched_at": "2026-08-24T04:09:46+00:00",
   "source_url": "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33",
-  "entries": [],
-  "error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by ConnectTimeoutError(<HTTPSConnection(host='alerts.ncdr.nat.gov.tw', port=443) at 0x7f7c219c4a70>, 'Connection to alerts.ncdr.nat.gov.tw timed out. (connect timeout=20)'))"
+  "entries": [
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260822141104_i_6403700_001",
+      "title": "停班停課",
+      "updated": "2026-08-22T14:11:04+08:00",
+      "summary": "[停班停課通知]高雄市桃源區:今天下午已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822141104_i_6403700_001.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822141104_i_6403700_001.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260822141104_i_6403700_001",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-22T14:11:04+08:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]高雄市桃源區:今天下午已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-22T14:10:00+08:00",
+        "onset": "",
+        "expires": "2026-08-22T23:59:59+08:00",
+        "areaDesc": [
+          "高雄市桃源區"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]高雄市桃源區:今天下午已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260822191732_i_10013_002",
+      "title": "停班停課",
+      "updated": "2026-08-22T19:17:32+08:00",
+      "summary": "[停班停課通知]屏東縣:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822191732_i_10013_002.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822191732_i_10013_002.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260822191732_i_10013_002",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-22T19:17:32+08:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]屏東縣:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-22T19:10:00+08:00",
+        "onset": "",
+        "expires": "2026-08-22T23:59:59+08:00",
+        "areaDesc": [
+          "屏東縣"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]屏東縣:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260822195335_i_67_003",
+      "title": "停班停課",
+      "updated": "2026-08-22T19:53:35+08:00",
+      "summary": "[停班停課通知]臺南市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822195335_i_67_003.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822195335_i_67_003.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260822195335_i_67_003",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-22T19:53:35+08:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]臺南市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-22T19:50:00+08:00",
+        "onset": "",
+        "expires": "2026-08-22T23:59:59+08:00",
+        "areaDesc": [
+          "臺南市"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]臺南市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260822200936_i_64_004",
+      "title": "停班停課",
+      "updated": "2026-08-22T20:09:36+08:00",
+      "summary": "[停班停課通知]高雄市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822200936_i_64_004.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822200936_i_64_004.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260822200936_i_64_004",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-22T20:09:36+08:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]高雄市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-22T20:00:00+08:00",
+        "onset": "",
+        "expires": "2026-08-22T23:59:59+08:00",
+        "areaDesc": [
+          "高雄市"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]高雄市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260823181835_i_67_004",
+      "title": "停班停課",
+      "updated": "2026-08-23T18:18:35+08:00",
+      "summary": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823181835_i_67_004.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823181835_i_67_004.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260823181835_i_67_004",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-23T18:18:35+08:00",
+        "status": "Actual",
+        "msgType": "Update",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-23T18:10:00+08:00",
+        "onset": "",
+        "expires": "2026-08-23T23:59:59+08:00",
+        "areaDesc": [
+          "臺南市"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260823182036_i_64_005",
+      "title": "停班停課",
+      "updated": "2026-08-23T18:20:36+08:00",
+      "summary": "[停班停課通知]高雄市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823182036_i_64_005.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823182036_i_64_005.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260823182036_i_64_005",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-23T18:20:36+08:00",
+        "status": "Actual",
+        "msgType": "Update",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]高雄市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-23T18:20:00+08:00",
+        "onset": "",
+        "expires": "2026-08-23T23:59:59+08:00",
+        "areaDesc": [
+          "高雄市"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]高雄市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260823183237_i_10013_006",
+      "title": "停班停課",
+      "updated": "2026-08-23T18:32:37+08:00",
+      "summary": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823183237_i_10013_006.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823183237_i_10013_006.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260823183237_i_10013_006",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-23T18:32:37+08:00",
+        "status": "Actual",
+        "msgType": "Update",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-23T18:30:00+08:00",
+        "onset": "",
+        "expires": "2026-08-23T23:59:59+08:00",
+        "areaDesc": [
+          "屏東縣"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260823223258_i_10015_007",
+      "title": "停班停課",
+      "updated": "2026-08-23T22:32:58+08:00",
+      "summary": "[停班停課通知]花蓮縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823223258_i_10015_007.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823223258_i_10015_007.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260823223258_i_10015_007",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-23T22:32:58+08:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]花蓮縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-23T22:30:00+08:00",
+        "onset": "",
+        "expires": "2026-08-23T23:59:59+08:00",
+        "areaDesc": [
+          "花蓮縣"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]花蓮縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgpa.gov.tw_workSchlClos_20260823235105_i_10014_008",
+      "title": "停班停課",
+      "updated": "2026-08-23T23:51:05+08:00",
+      "summary": "[停班停課通知]臺東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
+      "content": "",
+      "links": [
+        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823235105_i_10014_008.cap"
+      ],
+      "cap": {
+        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260823235105_i_10014_008.cap",
+        "identifier": "dgpa.gov.tw_workSchlClos_20260823235105_i_10014_008",
+        "sender": "http://www.dgpa.gov.tw",
+        "sent": "2026-08-23T23:51:05+08:00",
+        "status": "Actual",
+        "msgType": "Alert",
+        "scope": "Public",
+        "headline": "停班課通知",
+        "event": "停班停課",
+        "description": "[停班停課通知]臺東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
+        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
+        "effective": "2026-08-23T23:50:00+08:00",
+        "onset": "",
+        "expires": "2026-08-23T23:59:59+08:00",
+        "areaDesc": [
+          "臺東縣"
+        ],
+        "parameters": [
+          {
+            "valueName": "alert_title",
+            "value": "天然災害停止上班及上課情形"
+          },
+          {
+            "valueName": "CMAMtext",
+            "value": "[停班停課通知]臺東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。"
+          },
+          {
+            "valueName": "CHANNEL",
+            "value": "14,0"
+          },
+          {
+            "valueName": "alert_color",
+            "value": "紅色"
+          }
+        ]
+      }
+    }
+  ],
+  "error": null
 }

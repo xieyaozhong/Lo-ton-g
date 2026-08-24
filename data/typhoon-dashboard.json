@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-24T11:16:34+08:00",
+  "generated_at": "2026-08-24T12:09:48+08:00",
   "target_date": "2026-08-25",
   "typhoons": [
     {
@@ -673,7 +673,7 @@
   "jma_updated_at": "2026-08-24T11:11:25+08:00",
   "official_closures": {
     "fetch_ok": true,
-    "updated_text": "",
+    "updated_text": "2026/08/23 23:51:05",
     "no_notice": false,
     "rows": [
       {
@@ -730,15 +730,15 @@
       },
       {
         "county": "臺南市",
-        "status": ""
+        "status": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
       },
       {
         "county": "高雄市",
-        "status": ""
+        "status": "[停班停課通知]高雄市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
       },
       {
         "county": "屏東縣",
-        "status": ""
+        "status": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。"
       },
       {
         "county": "宜蘭縣",
@@ -746,11 +746,11 @@
       },
       {
         "county": "花蓮縣",
-        "status": ""
+        "status": "[停班停課通知]花蓮縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。"
       },
       {
         "county": "臺東縣",
-        "status": ""
+        "status": "[停班停課通知]臺東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。"
       },
       {
         "county": "澎湖縣",
@@ -1007,15 +1007,16 @@
       "county": "屏東縣",
       "lat": 22.5519,
       "lon": 120.5488,
-      "score": 10,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
+      "score": 100,
+      "level": "官方公告",
+      "predicted": true,
+      "official_status": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。",
       "weather": {},
       "closest_track_km": 367.7,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
       "reasons": [
+        "人事行政總處／NCDR 已公告全縣市停班及停課",
         "可能受外圍環流影響"
       ]
     },
@@ -1123,15 +1124,16 @@
       "county": "臺南市",
       "lat": 22.9997,
       "lon": 120.227,
-      "score": 10,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
+      "score": 100,
+      "level": "官方公告",
+      "predicted": true,
+      "official_status": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
       "weather": {},
       "closest_track_km": 309.9,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
       "reasons": [
+        "人事行政總處／NCDR 已公告全縣市停班及停課",
         "可能受外圍環流影響"
       ]
     },
@@ -1139,10 +1141,10 @@
       "county": "臺東縣",
       "lat": 22.7554,
       "lon": 121.15,
-      "score": 10,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
+      "score": 100,
+      "level": "官方公告",
+      "predicted": true,
+      "official_status": "[停班停課通知]臺東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
       "weather": {
         "precip_mm": 23.1,
         "wind_kmh": 14.1,
@@ -1152,6 +1154,7 @@
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
       "reasons": [
+        "人事行政總處／NCDR 已公告全縣市停班及停課",
         "可能受外圍環流影響"
       ]
     },
@@ -1159,15 +1162,16 @@
       "county": "花蓮縣",
       "lat": 23.9911,
       "lon": 121.6112,
-      "score": 10,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
+      "score": 100,
+      "level": "官方公告",
+      "predicted": true,
+      "official_status": "[停班停課通知]花蓮縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
       "weather": {},
       "closest_track_km": 386.4,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
       "reasons": [
+        "人事行政總處／NCDR 已公告全縣市停班及停課",
         "可能受外圍環流影響"
       ]
     },
@@ -1175,15 +1179,16 @@
       "county": "高雄市",
       "lat": 22.6273,
       "lon": 120.3014,
-      "score": 10,
-      "level": "低",
-      "predicted": false,
-      "official_status": "",
+      "score": 100,
+      "level": "官方公告",
+      "predicted": true,
+      "official_status": "[停班停課通知]高雄市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
       "weather": {},
       "closest_track_km": 343.7,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
       "reasons": [
+        "人事行政總處／NCDR 已公告全縣市停班及停課",
         "可能受外圍環流影響"
       ]
     }
@@ -1214,14 +1219,14 @@
     "typhoon_count": 4,
     "cwa_sent": "2026-08-24T11:11:25+08:00",
     "typhoon_empty_verified": false,
-    "ncdr_error": "HTTPSConnectionPool(host='alerts.ncdr.nat.gov.tw', port=443): Max retries exceeded with url: /RssAtomFeed.ashx?AlertType=33 (Caused by ConnectTimeoutError(<HTTPSConnection(host='alerts.ncdr.nat.gov.tw', port=443) at 0x7f7c219c4a70>, 'Connection to alerts.ncdr.nat.gov.tw timed out. (connect timeout=20)'))",
-    "ncdr_entry_count": 0,
+    "ncdr_error": null,
+    "ncdr_entry_count": 9,
     "closure_machine_source": "NCDR CAP"
   },
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-24T11:16:10+08:00",
+    "updated_at": "2026-08-24T12:09:28+08:00",
     "days": [
       {
         "date": "2026-08-25",
@@ -2030,7 +2035,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-24T11:16:34+08:00"
+    "rescored_at": "2026-08-24T12:09:48+08:00"
   },
   "typhoon_updated_at": "2026-08-24T11:11:25+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
