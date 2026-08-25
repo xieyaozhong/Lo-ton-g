@@ -1,55 +1,8 @@
 {
   "fetch_ok": true,
-  "fetched_at": "2026-08-25T11:37:45+00:00",
+  "fetched_at": "2026-08-25T12:00:09+00:00",
   "source_url": "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33",
   "entries": [
-    {
-      "id": "dgpa.gov.tw_workSchlClos_20260822195335_i_67_003",
-      "title": "停班停課",
-      "updated": "2026-08-22T19:53:35+08:00",
-      "summary": "[停班停課通知]臺南市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
-      "content": "",
-      "links": [
-        "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822195335_i_67_003.cap"
-      ],
-      "cap": {
-        "source_url": "https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2026/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20260822195335_i_67_003.cap",
-        "identifier": "dgpa.gov.tw_workSchlClos_20260822195335_i_67_003",
-        "sender": "http://www.dgpa.gov.tw",
-        "sent": "2026-08-22T19:53:35+08:00",
-        "status": "Actual",
-        "msgType": "Alert",
-        "scope": "Public",
-        "headline": "停班課通知",
-        "event": "停班停課",
-        "description": "[停班停課通知]臺南市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
-        "instruction": "適用範圍為各級政府機關及公、私立學校；\n至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，\n且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。",
-        "effective": "2026-08-22T19:50:00+08:00",
-        "onset": "",
-        "expires": "2026-08-22T23:59:59+08:00",
-        "areaDesc": [
-          "臺南市"
-        ],
-        "parameters": [
-          {
-            "valueName": "alert_title",
-            "value": "天然災害停止上班及上課情形"
-          },
-          {
-            "valueName": "CMAMtext",
-            "value": "[停班停課通知]臺南市:8/23已達停止上班及上課標準。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
-          },
-          {
-            "valueName": "CHANNEL",
-            "value": "14,0"
-          },
-          {
-            "valueName": "alert_color",
-            "value": "紅色"
-          }
-        ]
-      }
-    },
     {
       "id": "dgpa.gov.tw_workSchlClos_20260822200936_i_64_004",
       "title": "停班停課",
