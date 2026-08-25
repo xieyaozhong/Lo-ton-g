@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-26T04:38:08+08:00",
+  "generated_at": "2026-08-26T05:02:56+08:00",
   "target_date": "2026-08-27",
   "typhoons": [
     {
@@ -350,7 +350,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 0.2,
+        "wind_kmh": 10.5,
+        "gust_kmh": 27.7
+      },
       "closest_track_km": 473.5,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -444,11 +448,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 14.5,
-        "wind_kmh": 8.9,
-        "gust_kmh": 28.1
-      },
+      "weather": {},
       "closest_track_km": 657.6,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -462,11 +462,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 7.2,
-        "wind_kmh": 13.2,
-        "gust_kmh": 32.0
-      },
+      "weather": {},
       "closest_track_km": 671.1,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -550,7 +546,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 1.1,
+        "wind_kmh": 23.9,
+        "gust_kmh": 29.2
+      },
       "closest_track_km": 701.6,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -582,11 +582,7 @@
       "level": "官方公告",
       "predicted": true,
       "official_status": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
-      "weather": {
-        "precip_mm": 2.8,
-        "wind_kmh": 12.8,
-        "gust_kmh": 33.5
-      },
+      "weather": {},
       "closest_track_km": 714.8,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -602,7 +598,11 @@
       "level": "官方公告",
       "predicted": true,
       "official_status": "[停班停課通知]臺東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
-      "weather": {},
+      "weather": {
+        "precip_mm": 0.1,
+        "wind_kmh": 8.3,
+        "gust_kmh": 22.0
+      },
       "closest_track_km": 693.8,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -618,7 +618,11 @@
       "level": "官方公告",
       "predicted": true,
       "official_status": "[停班停課通知]花蓮縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。",
-      "weather": {},
+      "weather": {
+        "precip_mm": 2.0,
+        "wind_kmh": 4.1,
+        "gust_kmh": 19.1
+      },
       "closest_track_km": 549.5,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -652,7 +656,11 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {},
+      "weather": {
+        "precip_mm": 0.0,
+        "wind_kmh": 25.8,
+        "gust_kmh": 50.4
+      },
       "closest_track_km": 724.8,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
@@ -666,11 +674,7 @@
       "level": "低",
       "predicted": false,
       "official_status": "",
-      "weather": {
-        "precip_mm": 8.5,
-        "wind_kmh": 13.4,
-        "gust_kmh": 31.0
-      },
+      "weather": {},
       "closest_track_km": 637.4,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -684,11 +688,7 @@
       "level": "官方公告",
       "predicted": true,
       "official_status": "[停班停課通知]高雄市那瑪夏區:明天停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
-      "weather": {
-        "precip_mm": 7.8,
-        "wind_kmh": 12.3,
-        "gust_kmh": 35.3
-      },
+      "weather": {},
       "closest_track_km": 746.4,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": 200,
@@ -712,11 +712,11 @@
     "dgpa_error": null,
     "weather_error_count": 6,
     "weather_errors": [
-      "屏東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "宜蘭縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "花蓮縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "臺東縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-      "澎湖縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+      "雲林縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "嘉義市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "嘉義縣: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "臺南市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+      "高雄市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
     ],
     "holiday_weather_error_count": 0,
     "holiday_weather_errors": [],
@@ -730,7 +730,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-26T04:37:51+08:00",
+    "updated_at": "2026-08-26T05:02:43+08:00",
     "days": [
       {
         "date": "2026-08-27",
@@ -742,7 +742,7 @@
             "day_offset": 1,
             "risk_score": 34,
             "likelihood_pct": 15,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -762,7 +762,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -779,7 +779,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -796,7 +796,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -813,7 +813,7 @@
             "day_offset": 1,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -832,7 +832,7 @@
             "day_offset": 1,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -851,7 +851,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -868,7 +868,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -885,7 +885,7 @@
             "day_offset": 1,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -904,7 +904,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -921,7 +921,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -938,7 +938,7 @@
             "day_offset": 1,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -957,7 +957,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -974,7 +974,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -991,7 +991,7 @@
             "day_offset": 1,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1010,7 +1010,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1027,7 +1027,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1044,7 +1044,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1061,7 +1061,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1078,7 +1078,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1095,7 +1095,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1112,7 +1112,7 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較高",
+            "confidence": "中",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1135,7 +1135,7 @@
             "day_offset": 2,
             "risk_score": 58,
             "likelihood_pct": 64,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1156,7 +1156,7 @@
             "day_offset": 2,
             "risk_score": 34,
             "likelihood_pct": 15,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1176,7 +1176,7 @@
             "day_offset": 2,
             "risk_score": 34,
             "likelihood_pct": 15,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1196,7 +1196,7 @@
             "day_offset": 2,
             "risk_score": 34,
             "likelihood_pct": 15,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1216,7 +1216,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1235,7 +1235,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1252,7 +1252,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1269,7 +1269,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1288,7 +1288,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1307,7 +1307,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1324,7 +1324,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1343,7 +1343,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1362,7 +1362,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1381,7 +1381,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1398,7 +1398,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1417,7 +1417,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1436,7 +1436,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1453,7 +1453,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1470,7 +1470,7 @@
             "day_offset": 2,
             "risk_score": 10,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1489,7 +1489,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1506,7 +1506,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1523,7 +1523,7 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中低",
+            "confidence": "較低",
             "official": false,
             "official_status": "",
             "weather": {
@@ -1538,7 +1538,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-26T04:38:08+08:00"
+    "rescored_at": "2026-08-26T05:02:56+08:00"
   },
   "typhoon_updated_at": "2026-08-26T04:08:37+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
