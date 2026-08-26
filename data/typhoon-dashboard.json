@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-08-26T18:08:31+08:00",
+  "generated_at": "2026-08-26T18:50:15+08:00",
   "target_date": "2026-08-27",
   "typhoons": [
     {
@@ -250,7 +250,7 @@
       },
       {
         "county": "臺南市",
-        "status": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。"
+        "status": ""
       },
       {
         "county": "高雄市",
@@ -258,7 +258,7 @@
       },
       {
         "county": "屏東縣",
-        "status": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。"
+        "status": ""
       },
       {
         "county": "宜蘭縣",
@@ -454,10 +454,10 @@
       "county": "屏東縣",
       "lat": 22.5519,
       "lon": 120.5488,
-      "score": 100,
-      "level": "官方公告",
-      "predicted": true,
-      "official_status": "[停班停課通知]屏東縣:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。",
+      "score": 0,
+      "level": "低",
+      "predicted": false,
+      "official_status": "",
       "weather": {
         "precip_mm": 20.7,
         "wind_kmh": 12.0,
@@ -466,9 +466,7 @@
       "closest_track_km": 746.4,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
-      "reasons": [
-        "人事行政總處／NCDR 已公告全縣市停班及停課"
-      ]
+      "reasons": []
     },
     {
       "county": "彰化縣",
@@ -564,17 +562,15 @@
       "county": "臺南市",
       "lat": 22.9997,
       "lon": 120.227,
-      "score": 100,
-      "level": "官方公告",
-      "predicted": true,
-      "official_status": "[停班停課通知]臺南市:8/24停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。",
+      "score": 0,
+      "level": "低",
+      "predicted": false,
+      "official_status": "",
       "weather": {},
       "closest_track_km": 718.8,
       "rain_reference_mm": 350,
       "mountain_rain_reference_mm": null,
-      "reasons": [
-        "人事行政總處／NCDR 已公告全縣市停班及停課"
-      ]
+      "reasons": []
     },
     {
       "county": "臺東縣",
@@ -710,13 +706,13 @@
     "cwa_sent": "2026-08-26T15:14:26+08:00",
     "typhoon_empty_verified": false,
     "ncdr_error": null,
-    "ncdr_entry_count": 10,
+    "ncdr_entry_count": 7,
     "closure_machine_source": "NCDR CAP"
   },
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-08-26T18:08:18+08:00",
+    "updated_at": "2026-08-26T18:50:02+08:00",
     "days": [
       {
         "date": "2026-08-27",
@@ -1531,7 +1527,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-08-26T18:08:31+08:00"
+    "rescored_at": "2026-08-26T18:50:15+08:00"
   },
   "typhoon_updated_at": "2026-08-26T15:14:26+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
