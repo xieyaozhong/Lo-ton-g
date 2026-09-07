@@ -1,9 +1,9 @@
 {
   "cwaopendata": {
     "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-    "Identifier": "CWA-TropicalCyclone_20260907150134",
+    "Identifier": "CWA-TropicalCyclone_20260907205209",
     "Sender": "fss@wfc.cwa.gov.tw",
-    "Sent": "2026-09-07T15:01:34+08:00",
+    "Sent": "2026-09-07T20:52:09+08:00",
     "Status": "Actual",
     "MsgType": "Update",
     "Scope": "Public",
@@ -904,34 +904,72 @@
                 "MovingDirection": "NNE",
                 "Circle15ms": null,
                 "Circle25ms": null
+              },
+              {
+                "DateTime": "2026-09-07T20:00:00+08:00",
+                "CoordinateLongitude": "133.1",
+                "CoordinateLatitude": "28.2",
+                "MaxWindSpeed": "12",
+                "MaxGustSpeed": "20",
+                "Pressure": "995",
+                "MovingSpeed": "20",
+                "MovingDirection": "NNE",
+                "MovingPrediction": [
+                  {
+                    "@lang": "zh-hant",
+                    "#text": "以每小時19公里速度，向北進行"
+                  },
+                  {
+                    "@lang": "en-us",
+                    "#text": "NORTH 19 KM/HR"
+                  }
+                ],
+                "Circle15ms": null,
+                "Circle25ms": null
               }
             ]
           },
           "ForecastData": {
-            "Fix": {
-              "InitialTime": "2026-09-07T14:00:00+08:00",
-              "ForecastHour": "6",
-              "CoordinateLongitude": "132.9",
-              "CoordinateLatitude": "28.0",
-              "MaxWindSpeed": "10",
-              "MaxGustSpeed": "15",
-              "Pressure": "998",
-              "MovingSpeed": "15",
-              "MovingDirection": "NNE",
-              "Circle15ms": null,
-              "Circle25ms": null,
-              "Radius70PercentProbability": "50",
-              "StateTransfer": [
-                {
-                  "@lang": "zh-hant",
-                  "#text": "減弱為低氣壓"
-                },
-                {
-                  "@lang": "en-us",
-                  "#text": "BECOMING LOW DEPRESSION"
-                }
-              ]
-            }
+            "Fix": [
+              {
+                "InitialTime": "2026-09-07T20:00:00+08:00",
+                "ForecastHour": "6",
+                "CoordinateLongitude": "132.8",
+                "CoordinateLatitude": "29.2",
+                "MaxWindSpeed": "12",
+                "MaxGustSpeed": "20",
+                "Pressure": "995",
+                "MovingSpeed": "19",
+                "MovingDirection": "NNW",
+                "Circle15ms": null,
+                "Circle25ms": null,
+                "Radius70PercentProbability": "70"
+              },
+              {
+                "InitialTime": "2026-09-07T20:00:00+08:00",
+                "ForecastHour": "12",
+                "CoordinateLongitude": "132.6",
+                "CoordinateLatitude": "30.2",
+                "MaxWindSpeed": "10",
+                "MaxGustSpeed": "15",
+                "Pressure": "1006",
+                "MovingSpeed": "19",
+                "MovingDirection": "N",
+                "Circle15ms": null,
+                "Circle25ms": null,
+                "Radius70PercentProbability": "100",
+                "StateTransfer": [
+                  {
+                    "@lang": "zh-hant",
+                    "#text": "減弱為低氣壓"
+                  },
+                  {
+                    "@lang": "en-us",
+                    "#text": "BECOMING LOW DEPRESSION"
+                  }
+                ]
+              }
+            ]
           }
         }
       }
