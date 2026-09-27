@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-09-28T03:54:22+08:00",
+  "generated_at": "2026-09-28T06:43:16+08:00",
   "target_date": "2026-09-25",
   "typhoons": [
     {
@@ -192,7 +192,7 @@
           "lat": 37.4,
           "lon": 148.8,
           "location": "",
-          "pressure_hpa": 925,
+          "pressure_hpa": 998,
           "direction": "東北",
           "speed_kmh": 30.0,
           "max_wind_ms": null,
@@ -203,7 +203,7 @@
       "source_url": "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Warning/W-C0034-005.json"
     }
   ],
-  "jma_updated_at": "2026-09-28T03:01:31+08:00",
+  "jma_updated_at": "2026-09-28T05:18:32+08:00",
   "official_closures": {
     "fetch_ok": true,
     "updated_text": "",
@@ -698,7 +698,7 @@
     "holiday_weather_error_count": 0,
     "holiday_weather_errors": [],
     "typhoon_count": 1,
-    "cwa_sent": "2026-09-28T03:01:31+08:00",
+    "cwa_sent": "2026-09-28T05:18:32+08:00",
     "typhoon_empty_verified": false,
     "ncdr_error": null,
     "ncdr_entry_count": 0,
@@ -707,7 +707,7 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-09-28T03:54:17+08:00",
+    "updated_at": "2026-09-28T06:43:11+08:00",
     "days": [
       {
         "date": "2026-09-29",
@@ -1471,9 +1471,9 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-09-28T03:54:22+08:00"
+    "rescored_at": "2026-09-28T06:43:16+08:00"
   },
-  "typhoon_updated_at": "2026-09-28T03:01:31+08:00",
+  "typhoon_updated_at": "2026-09-28T05:18:32+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
   "freshness_policy": {
     "typhoon_and_closure_refresh_minutes": 5,
