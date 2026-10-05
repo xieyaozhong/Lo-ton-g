@@ -1,9 +1,9 @@
 {
   "cwaopendata": {
     "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-    "Identifier": "CWA-TropicalCyclone_20261005100031",
+    "Identifier": "CWA-TropicalCyclone_20261005144730",
     "Sender": "fss@wfc.cwa.gov.tw",
-    "Sent": "2026-10-05T10:00:31+08:00",
+    "Sent": "2026-10-05T14:47:30+08:00",
     "Status": "Actual",
     "MsgType": "Update",
     "Scope": "Public",
@@ -883,16 +883,6 @@
                   "Pressure": "915",
                   "MovingSpeed": "20",
                   "MovingDirection": "NW",
-                  "MovingPrediction": [
-                    {
-                      "@lang": "zh-hant",
-                      "#text": "以每小時19轉28公里速度，向北北西轉北進行"
-                    },
-                    {
-                      "@lang": "en-us",
-                      "#text": "NNW TURNING NORTH 19 KM/HR BECOMING 28 KM/HR"
-                    }
-                  ],
                   "Circle15ms": {
                     "Radius": "300",
                     "QuadrantRadii": {
@@ -939,75 +929,141 @@
                       ]
                     }
                   }
+                },
+                {
+                  "DateTime": "2026-10-05T14:00:00+08:00",
+                  "CoordinateLongitude": "146.3",
+                  "CoordinateLatitude": "26.3",
+                  "MaxWindSpeed": "51",
+                  "MaxGustSpeed": "63",
+                  "Pressure": "925",
+                  "MovingSpeed": "21",
+                  "MovingDirection": "N",
+                  "MovingPrediction": [
+                    {
+                      "@lang": "zh-hant",
+                      "#text": "以每小時21轉32公里速度，向北北西轉北北東進行"
+                    },
+                    {
+                      "@lang": "en-us",
+                      "#text": "NNW TURNING NNE 21 KM/HR BECOMING 32 KM/HR"
+                    }
+                  ],
+                  "Circle15ms": {
+                    "Radius": "300",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "350"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "330"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "250"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "280"
+                        }
+                      ]
+                    }
+                  },
+                  "Circle25ms": {
+                    "Radius": "100",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "100"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "100"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "90"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "100"
+                        }
+                      ]
+                    }
+                  }
                 }
               ]
             },
             "ForecastData": {
               "Fix": [
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "6",
-                  "CoordinateLongitude": "146.1",
-                  "CoordinateLatitude": "26.2",
-                  "MaxWindSpeed": "53",
-                  "MaxGustSpeed": "65",
-                  "Pressure": "915",
-                  "MovingSpeed": "20",
+                  "CoordinateLongitude": "146.0",
+                  "CoordinateLatitude": "27.3",
+                  "MaxWindSpeed": "51",
+                  "MaxGustSpeed": "63",
+                  "Pressure": "925",
+                  "MovingSpeed": "18",
                   "MovingDirection": "NNW",
                   "Circle15ms": {
                     "Radius": "300"
                   },
                   "Circle25ms": {
-                    "Radius": "120"
+                    "Radius": "100"
                   },
                   "Radius70PercentProbability": "40"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "12",
-                  "CoordinateLongitude": "145.8",
-                  "CoordinateLatitude": "27.2",
-                  "MaxWindSpeed": "53",
-                  "MaxGustSpeed": "65",
-                  "Pressure": "915",
-                  "MovingSpeed": "19",
-                  "MovingDirection": "NNW",
-                  "Circle15ms": {
-                    "Radius": "300"
-                  },
-                  "Circle25ms": {
-                    "Radius": "120"
-                  },
-                  "Radius70PercentProbability": "50"
-                },
-                {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
-                  "ForecastHour": "18",
                   "CoordinateLongitude": "145.7",
                   "CoordinateLatitude": "28.4",
-                  "MaxWindSpeed": "51",
-                  "MaxGustSpeed": "63",
-                  "Pressure": "925",
-                  "MovingSpeed": "22",
-                  "MovingDirection": "N",
+                  "MaxWindSpeed": "48",
+                  "MaxGustSpeed": "58",
+                  "Pressure": "930",
+                  "MovingSpeed": "21",
+                  "MovingDirection": "NNW",
                   "Circle15ms": {
                     "Radius": "280"
                   },
                   "Circle25ms": {
                     "Radius": "90"
                   },
+                  "Radius70PercentProbability": "50"
+                },
+                {
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
+                  "ForecastHour": "18",
+                  "CoordinateLongitude": "145.8",
+                  "CoordinateLatitude": "29.8",
+                  "MaxWindSpeed": "45",
+                  "MaxGustSpeed": "55",
+                  "Pressure": "940",
+                  "MovingSpeed": "26",
+                  "MovingDirection": "N",
+                  "Circle15ms": {
+                    "Radius": "250"
+                  },
+                  "Circle25ms": {
+                    "Radius": "80"
+                  },
                   "Radius70PercentProbability": "80"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "24",
-                  "CoordinateLongitude": "145.8",
-                  "CoordinateLatitude": "29.9",
-                  "MaxWindSpeed": "48",
-                  "MaxGustSpeed": "58",
-                  "Pressure": "930",
-                  "MovingSpeed": "28",
-                  "MovingDirection": "N",
+                  "CoordinateLongitude": "146.3",
+                  "CoordinateLatitude": "31.5",
+                  "MaxWindSpeed": "43",
+                  "MaxGustSpeed": "53",
+                  "Pressure": "945",
+                  "MovingSpeed": "32",
+                  "MovingDirection": "NNE",
                   "Circle15ms": {
                     "Radius": "250"
                   },
@@ -1017,14 +1073,14 @@
                   "Radius70PercentProbability": "90"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "36",
-                  "CoordinateLongitude": "147.8",
-                  "CoordinateLatitude": "33.7",
-                  "MaxWindSpeed": "40",
-                  "MaxGustSpeed": "50",
-                  "Pressure": "950",
-                  "MovingSpeed": "38",
+                  "CoordinateLongitude": "149.6",
+                  "CoordinateLatitude": "36.1",
+                  "MaxWindSpeed": "38",
+                  "MaxGustSpeed": "48",
+                  "Pressure": "960",
+                  "MovingSpeed": "50",
                   "MovingDirection": "NNE",
                   "Circle15ms": {
                     "Radius": "220"
@@ -1035,30 +1091,30 @@
                   "Radius70PercentProbability": "120"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "48",
-                  "CoordinateLongitude": "153.1",
-                  "CoordinateLatitude": "39.5",
-                  "MaxWindSpeed": "35",
-                  "MaxGustSpeed": "45",
-                  "Pressure": "965",
-                  "MovingSpeed": "67",
+                  "CoordinateLongitude": "157.0",
+                  "CoordinateLatitude": "42.7",
+                  "MaxWindSpeed": "30",
+                  "MaxGustSpeed": "38",
+                  "Pressure": "975",
+                  "MovingSpeed": "81",
                   "MovingDirection": "NE",
                   "Circle15ms": {
-                    "Radius": "180"
+                    "Radius": "150"
                   },
                   "Circle25ms": {
-                    "Radius": "60"
+                    "Radius": "50"
                   },
-                  "Radius70PercentProbability": "180"
+                  "Radius70PercentProbability": "190"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "72",
-                  "CoordinateLongitude": "170.8",
-                  "CoordinateLatitude": "54.9",
-                  "Pressure": "915",
-                  "MovingSpeed": "90",
+                  "CoordinateLongitude": "174.8",
+                  "CoordinateLatitude": "56.5",
+                  "Pressure": "985",
+                  "MovingSpeed": "83",
                   "MovingDirection": "NNE",
                   "Circle15ms": null,
                   "Circle25ms": null,
@@ -1083,162 +1139,230 @@
             "CwaTyphoonName": "諾洛",
             "CwaTyNo": "27",
             "AnalysisData": {
-              "Fix": {
-                "DateTime": "2026-10-05T08:00:00+08:00",
-                "CoordinateLongitude": "179.4",
-                "CoordinateLatitude": "24.7",
-                "MaxWindSpeed": "40",
-                "MaxGustSpeed": "50",
-                "Pressure": "955",
-                "Circle15ms": {
-                  "Radius": "200",
-                  "QuadrantRadii": {
-                    "Radius": [
-                      {
-                        "@dir": "NE",
-                        "#text": "200"
-                      },
-                      {
-                        "@dir": "SE",
-                        "#text": "200"
-                      },
-                      {
-                        "@dir": "SW",
-                        "#text": "200"
-                      },
-                      {
-                        "@dir": "NW",
-                        "#text": "200"
-                      }
-                    ]
+              "Fix": [
+                {
+                  "DateTime": "2026-10-05T08:00:00+08:00",
+                  "CoordinateLongitude": "179.4",
+                  "CoordinateLatitude": "24.7",
+                  "MaxWindSpeed": "40",
+                  "MaxGustSpeed": "50",
+                  "Pressure": "955",
+                  "Circle15ms": {
+                    "Radius": "200",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "200"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "200"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "200"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "200"
+                        }
+                      ]
+                    }
+                  },
+                  "Circle25ms": {
+                    "Radius": "70",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "70"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "70"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "70"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "70"
+                        }
+                      ]
+                    }
                   }
                 },
-                "Circle25ms": {
-                  "Radius": "70",
-                  "QuadrantRadii": {
-                    "Radius": [
-                      {
-                        "@dir": "NE",
-                        "#text": "70"
-                      },
-                      {
-                        "@dir": "SE",
-                        "#text": "70"
-                      },
-                      {
-                        "@dir": "SW",
-                        "#text": "70"
-                      },
-                      {
-                        "@dir": "NW",
-                        "#text": "70"
-                      }
-                    ]
+                {
+                  "DateTime": "2026-10-05T14:00:00+08:00",
+                  "CoordinateLongitude": "177.9",
+                  "CoordinateLatitude": "25.2",
+                  "MaxWindSpeed": "43",
+                  "MaxGustSpeed": "53",
+                  "Pressure": "950",
+                  "MovingSpeed": "27",
+                  "MovingDirection": "WNW",
+                  "MovingPrediction": [
+                    {
+                      "@lang": "zh-hant",
+                      "#text": "以每小時25轉32公里速度，向西進行"
+                    },
+                    {
+                      "@lang": "en-us",
+                      "#text": "WEST 25 KM/HR BECOMING 32 KM/HR"
+                    }
+                  ],
+                  "Circle15ms": {
+                    "Radius": "200",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "230"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "180"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "170"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "200"
+                        }
+                      ]
+                    }
+                  },
+                  "Circle25ms": {
+                    "Radius": "80",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "80"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "80"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "80"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "80"
+                        }
+                      ]
+                    }
                   }
                 }
-              }
+              ]
             },
             "ForecastData": {
               "Fix": [
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "6",
-                  "CoordinateLongitude": "178.0",
-                  "CoordinateLatitude": "25.1",
-                  "MaxWindSpeed": "40",
-                  "MaxGustSpeed": "50",
-                  "Pressure": "955",
-                  "MovingSpeed": "25",
-                  "MovingDirection": "WNW",
-                  "Circle15ms": {
-                    "Radius": "200"
-                  },
-                  "Circle25ms": {
-                    "Radius": "70"
-                  },
-                  "Radius70PercentProbability": "40"
-                },
-                {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
-                  "ForecastHour": "12",
-                  "CoordinateLongitude": "176.4",
-                  "CoordinateLatitude": "25.4",
-                  "MaxWindSpeed": "40",
-                  "MaxGustSpeed": "50",
-                  "Pressure": "955",
+                  "CoordinateLongitude": "176.3",
+                  "CoordinateLatitude": "25.5",
+                  "MaxWindSpeed": "43",
+                  "MaxGustSpeed": "53",
+                  "Pressure": "950",
                   "MovingSpeed": "27",
                   "MovingDirection": "WNW",
                   "Circle15ms": {
                     "Radius": "200"
                   },
                   "Circle25ms": {
-                    "Radius": "70"
+                    "Radius": "80"
                   },
-                  "Radius70PercentProbability": "50"
+                  "Radius70PercentProbability": "40"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
-                  "ForecastHour": "18",
-                  "CoordinateLongitude": "174.9",
-                  "CoordinateLatitude": "25.5",
-                  "MaxWindSpeed": "40",
-                  "MaxGustSpeed": "50",
-                  "Pressure": "955",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
+                  "ForecastHour": "12",
+                  "CoordinateLongitude": "174.8",
+                  "CoordinateLatitude": "25.6",
+                  "MaxWindSpeed": "43",
+                  "MaxGustSpeed": "53",
+                  "Pressure": "950",
                   "MovingSpeed": "25",
                   "MovingDirection": "W",
                   "Circle15ms": {
                     "Radius": "200"
                   },
                   "Circle25ms": {
-                    "Radius": "70"
+                    "Radius": "80"
+                  },
+                  "Radius70PercentProbability": "50"
+                },
+                {
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
+                  "ForecastHour": "18",
+                  "CoordinateLongitude": "173.1",
+                  "CoordinateLatitude": "25.4",
+                  "MaxWindSpeed": "40",
+                  "MaxGustSpeed": "50",
+                  "Pressure": "950",
+                  "MovingSpeed": "29",
+                  "MovingDirection": "W",
+                  "Circle15ms": {
+                    "Radius": "200"
+                  },
+                  "Circle25ms": {
+                    "Radius": "80"
                   },
                   "Radius70PercentProbability": "80"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "24",
-                  "CoordinateLongitude": "173.2",
-                  "CoordinateLatitude": "25.5",
-                  "MaxWindSpeed": "40",
-                  "MaxGustSpeed": "50",
-                  "Pressure": "955",
-                  "MovingSpeed": "28",
+                  "CoordinateLongitude": "171.2",
+                  "CoordinateLatitude": "25.3",
+                  "MaxWindSpeed": "38",
+                  "MaxGustSpeed": "48",
+                  "Pressure": "960",
+                  "MovingSpeed": "32",
                   "MovingDirection": "W",
                   "Circle15ms": {
                     "Radius": "200"
                   },
                   "Circle25ms": {
-                    "Radius": "70"
+                    "Radius": "80"
                   },
                   "Radius70PercentProbability": "90"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "36",
-                  "CoordinateLongitude": "169.3",
-                  "CoordinateLatitude": "25.2",
+                  "CoordinateLongitude": "166.7",
+                  "CoordinateLatitude": "25.0",
                   "MaxWindSpeed": "35",
                   "MaxGustSpeed": "45",
-                  "Pressure": "970",
-                  "MovingSpeed": "33",
+                  "Pressure": "965",
+                  "MovingSpeed": "38",
                   "MovingDirection": "W",
                   "Circle15ms": {
-                    "Radius": "200"
+                    "Radius": "180"
                   },
                   "Circle25ms": {
-                    "Radius": "70"
+                    "Radius": "60"
                   },
-                  "Radius70PercentProbability": "110"
+                  "Radius70PercentProbability": "120"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "48",
-                  "CoordinateLongitude": "164.6",
-                  "CoordinateLatitude": "25.5",
-                  "MaxWindSpeed": "30",
-                  "MaxGustSpeed": "38",
-                  "Pressure": "980",
-                  "MovingSpeed": "40",
+                  "CoordinateLongitude": "162.1",
+                  "CoordinateLatitude": "25.6",
+                  "MaxWindSpeed": "33",
+                  "MaxGustSpeed": "43",
+                  "Pressure": "970",
+                  "MovingSpeed": "39",
                   "MovingDirection": "W",
                   "Circle15ms": {
                     "Radius": "180"
@@ -1249,51 +1373,55 @@
                   "Radius70PercentProbability": "140"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "72",
-                  "CoordinateLongitude": "156.4",
-                  "CoordinateLatitude": "26.6",
+                  "CoordinateLongitude": "154.3",
+                  "CoordinateLatitude": "26.5",
                   "MaxWindSpeed": "25",
                   "MaxGustSpeed": "33",
-                  "Pressure": "990",
-                  "MovingSpeed": "35",
+                  "Pressure": "985",
+                  "MovingSpeed": "33",
                   "MovingDirection": "W",
                   "Circle15ms": {
-                    "Radius": "150"
+                    "Radius": "180"
                   },
                   "Circle25ms": null,
                   "Radius70PercentProbability": "230"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "96",
-                  "CoordinateLongitude": "151.3",
-                  "CoordinateLatitude": "28.6",
-                  "MaxWindSpeed": "23",
-                  "MaxGustSpeed": "30",
-                  "Pressure": "992",
-                  "MovingSpeed": "23",
+                  "CoordinateLongitude": "149.6",
+                  "CoordinateLatitude": "28.1",
+                  "MaxWindSpeed": "30",
+                  "MaxGustSpeed": "38",
+                  "Pressure": "975",
+                  "MovingSpeed": "21",
                   "MovingDirection": "WNW",
                   "Circle15ms": {
-                    "Radius": "150"
+                    "Radius": "180"
                   },
-                  "Circle25ms": null,
+                  "Circle25ms": {
+                    "Radius": "60"
+                  },
                   "Radius70PercentProbability": "360"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "120",
-                  "CoordinateLongitude": "149.4",
-                  "CoordinateLatitude": "30.2",
-                  "MaxWindSpeed": "20",
-                  "MaxGustSpeed": "28",
-                  "Pressure": "995",
-                  "MovingSpeed": "11",
+                  "CoordinateLongitude": "146.8",
+                  "CoordinateLatitude": "29.9",
+                  "MaxWindSpeed": "30",
+                  "MaxGustSpeed": "38",
+                  "Pressure": "975",
+                  "MovingSpeed": "14",
                   "MovingDirection": "NW",
                   "Circle15ms": {
-                    "Radius": "150"
+                    "Radius": "180"
                   },
-                  "Circle25ms": null,
+                  "Circle25ms": {
+                    "Radius": "60"
+                  },
                   "Radius70PercentProbability": "410"
                 }
               ]
@@ -1340,16 +1468,6 @@
                   "Pressure": "1000",
                   "MovingSpeed": "11",
                   "MovingDirection": "ENE",
-                  "MovingPrediction": [
-                    {
-                      "@lang": "zh-hant",
-                      "#text": "以每小時11轉14公里速度，向北轉北北西進行"
-                    },
-                    {
-                      "@lang": "en-us",
-                      "#text": "NORTH TURNING NNW 11 KM/HR BECOMING 14 KM/HR"
-                    }
-                  ],
                   "Circle15ms": {
                     "Radius": "100",
                     "QuadrantRadii": {
@@ -1374,21 +1492,65 @@
                     }
                   },
                   "Circle25ms": null
+                },
+                {
+                  "DateTime": "2026-10-05T14:00:00+08:00",
+                  "CoordinateLongitude": "168.1",
+                  "CoordinateLatitude": "11.1",
+                  "MaxWindSpeed": "18",
+                  "MaxGustSpeed": "25",
+                  "Pressure": "1000",
+                  "MovingSpeed": "11",
+                  "MovingDirection": "N",
+                  "MovingPrediction": [
+                    {
+                      "@lang": "zh-hant",
+                      "#text": "以每小時11轉15公里速度，向北轉北北西進行"
+                    },
+                    {
+                      "@lang": "en-us",
+                      "#text": "NORTH TURNING NNW 11 KM/HR BECOMING 15 KM/HR"
+                    }
+                  ],
+                  "Circle15ms": {
+                    "Radius": "100",
+                    "QuadrantRadii": {
+                      "Radius": [
+                        {
+                          "@dir": "NE",
+                          "#text": "130"
+                        },
+                        {
+                          "@dir": "SE",
+                          "#text": "70"
+                        },
+                        {
+                          "@dir": "SW",
+                          "#text": "70"
+                        },
+                        {
+                          "@dir": "NW",
+                          "#text": "130"
+                        }
+                      ]
+                    }
+                  },
+                  "Circle25ms": null
                 }
               ]
             },
             "ForecastData": {
               "Fix": [
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "6",
-                  "CoordinateLongitude": "168.3",
-                  "CoordinateLatitude": "10.9",
+                  "CoordinateLongitude": "168.1",
+                  "CoordinateLatitude": "11.7",
                   "MaxWindSpeed": "18",
                   "MaxGustSpeed": "25",
-                  "Pressure": "1000",
-                  "MovingSpeed": "8",
-                  "MovingDirection": "NNE",
+                  "Pressure": "998",
+                  "MovingSpeed": "11",
+                  "MovingDirection": "N",
                   "Circle15ms": {
                     "Radius": "100"
                   },
@@ -1396,13 +1558,13 @@
                   "Radius70PercentProbability": "30"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "12",
-                  "CoordinateLongitude": "168.3",
-                  "CoordinateLatitude": "11.5",
-                  "MaxWindSpeed": "18",
-                  "MaxGustSpeed": "25",
-                  "Pressure": "1000",
+                  "CoordinateLongitude": "168.0",
+                  "CoordinateLatitude": "12.3",
+                  "MaxWindSpeed": "20",
+                  "MaxGustSpeed": "28",
+                  "Pressure": "995",
                   "MovingSpeed": "11",
                   "MovingDirection": "N",
                   "Circle15ms": {
@@ -1412,15 +1574,15 @@
                   "Radius70PercentProbability": "40"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "18",
-                  "CoordinateLongitude": "168.2",
-                  "CoordinateLatitude": "12.1",
+                  "CoordinateLongitude": "167.7",
+                  "CoordinateLatitude": "13.0",
                   "MaxWindSpeed": "20",
                   "MaxGustSpeed": "28",
-                  "Pressure": "998",
-                  "MovingSpeed": "11",
-                  "MovingDirection": "N",
+                  "Pressure": "995",
+                  "MovingSpeed": "14",
+                  "MovingDirection": "NNW",
                   "Circle15ms": {
                     "Radius": "100"
                   },
@@ -1428,45 +1590,45 @@
                   "Radius70PercentProbability": "80"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "24",
-                  "CoordinateLongitude": "167.9",
-                  "CoordinateLatitude": "12.8",
-                  "MaxWindSpeed": "20",
-                  "MaxGustSpeed": "28",
-                  "Pressure": "998",
-                  "MovingSpeed": "14",
+                  "CoordinateLongitude": "167.3",
+                  "CoordinateLatitude": "13.7",
+                  "MaxWindSpeed": "23",
+                  "MaxGustSpeed": "30",
+                  "Pressure": "990",
+                  "MovingSpeed": "15",
                   "MovingDirection": "NNW",
                   "Circle15ms": {
-                    "Radius": "100"
+                    "Radius": "120"
                   },
                   "Circle25ms": null,
                   "Radius70PercentProbability": "90"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "36",
-                  "CoordinateLongitude": "166.9",
-                  "CoordinateLatitude": "14.2",
-                  "MaxWindSpeed": "23",
-                  "MaxGustSpeed": "30",
-                  "Pressure": "992",
-                  "MovingSpeed": "16",
+                  "CoordinateLongitude": "166.2",
+                  "CoordinateLatitude": "14.9",
+                  "MaxWindSpeed": "25",
+                  "MaxGustSpeed": "33",
+                  "Pressure": "985",
+                  "MovingSpeed": "15",
                   "MovingDirection": "NW",
                   "Circle15ms": {
-                    "Radius": "120"
+                    "Radius": "150"
                   },
                   "Circle25ms": null,
                   "Radius70PercentProbability": "100"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "48",
-                  "CoordinateLongitude": "165.6",
-                  "CoordinateLatitude": "15.6",
-                  "MaxWindSpeed": "25",
-                  "MaxGustSpeed": "33",
-                  "Pressure": "990",
+                  "CoordinateLongitude": "164.8",
+                  "CoordinateLatitude": "16.2",
+                  "MaxWindSpeed": "28",
+                  "MaxGustSpeed": "35",
+                  "Pressure": "980",
                   "MovingSpeed": "17",
                   "MovingDirection": "NW",
                   "Circle15ms": {
@@ -1476,30 +1638,32 @@
                   "Radius70PercentProbability": "140"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "72",
-                  "CoordinateLongitude": "161.8",
-                  "CoordinateLatitude": "17.6",
-                  "MaxWindSpeed": "28",
-                  "MaxGustSpeed": "35",
-                  "Pressure": "985",
-                  "MovingSpeed": "19",
+                  "CoordinateLongitude": "160.3",
+                  "CoordinateLatitude": "18.1",
+                  "MaxWindSpeed": "30",
+                  "MaxGustSpeed": "38",
+                  "Pressure": "975",
+                  "MovingSpeed": "22",
                   "MovingDirection": "WNW",
                   "Circle15ms": {
-                    "Radius": "150"
+                    "Radius": "180"
                   },
-                  "Circle25ms": null,
+                  "Circle25ms": {
+                    "Radius": "60"
+                  },
                   "Radius70PercentProbability": "210"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "96",
-                  "CoordinateLongitude": "156.1",
-                  "CoordinateLatitude": "19.9",
-                  "MaxWindSpeed": "33",
-                  "MaxGustSpeed": "43",
-                  "Pressure": "975",
-                  "MovingSpeed": "27",
+                  "CoordinateLongitude": "154.5",
+                  "CoordinateLatitude": "20.7",
+                  "MaxWindSpeed": "38",
+                  "MaxGustSpeed": "48",
+                  "Pressure": "960",
+                  "MovingSpeed": "28",
                   "MovingDirection": "WNW",
                   "Circle15ms": {
                     "Radius": "180"
@@ -1510,20 +1674,20 @@
                   "Radius70PercentProbability": "360"
                 },
                 {
-                  "InitialTime": "2026-10-05T08:00:00+08:00",
+                  "InitialTime": "2026-10-05T14:00:00+08:00",
                   "ForecastHour": "120",
-                  "CoordinateLongitude": "150.3",
-                  "CoordinateLatitude": "23.1",
-                  "MaxWindSpeed": "38",
-                  "MaxGustSpeed": "48",
-                  "Pressure": "965",
-                  "MovingSpeed": "29",
-                  "MovingDirection": "WNW",
+                  "CoordinateLongitude": "149.6",
+                  "CoordinateLatitude": "24.0",
+                  "MaxWindSpeed": "40",
+                  "MaxGustSpeed": "50",
+                  "Pressure": "950",
+                  "MovingSpeed": "26",
+                  "MovingDirection": "NW",
                   "Circle15ms": {
-                    "Radius": "180"
+                    "Radius": "200"
                   },
                   "Circle25ms": {
-                    "Radius": "60"
+                    "Radius": "70"
                   },
                   "Radius70PercentProbability": "460"
                 }
