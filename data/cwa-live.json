@@ -1,9 +1,9 @@
 {
   "cwaopendata": {
     "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-    "Identifier": "CWA-TropicalCyclone_20261013211106",
+    "Identifier": "CWA-TropicalCyclone_20261014031120",
     "Sender": "fss@wfc.cwa.gov.tw",
-    "Sent": "2026-10-13T21:11:06+08:00",
+    "Sent": "2026-10-14T03:11:20+08:00",
     "Status": "Actual",
     "MsgType": "Update",
     "Scope": "Public",
@@ -1646,14 +1646,48 @@
                 "Pressure": "985",
                 "MovingSpeed": "41",
                 "MovingDirection": "NE",
+                "Circle15ms": {
+                  "Radius": "180",
+                  "QuadrantRadii": {
+                    "Radius": [
+                      {
+                        "@dir": "NE",
+                        "#text": "200"
+                      },
+                      {
+                        "@dir": "SE",
+                        "#text": "200"
+                      },
+                      {
+                        "@dir": "SW",
+                        "#text": "120"
+                      },
+                      {
+                        "@dir": "NW",
+                        "#text": "200"
+                      }
+                    ]
+                  }
+                },
+                "Circle25ms": null
+              },
+              {
+                "DateTime": "2026-10-14T02:00:00+08:00",
+                "CoordinateLongitude": "157.3",
+                "CoordinateLatitude": "38.1",
+                "MaxWindSpeed": "25",
+                "MaxGustSpeed": "33",
+                "Pressure": "985",
+                "MovingSpeed": "35",
+                "MovingDirection": "NE",
                 "MovingPrediction": [
                   {
                     "@lang": "zh-hant",
-                    "#text": "以每小時37公里速度，向東北進行"
+                    "#text": "以每小時35公里速度，向東北進行"
                   },
                   {
                     "@lang": "en-us",
-                    "#text": "NE 37 KM/HR"
+                    "#text": "NE 35 KM/HR"
                   }
                 ],
                 "Circle15ms": {
@@ -1686,14 +1720,14 @@
           "ForecastData": {
             "Fix": [
               {
-                "InitialTime": "2026-10-13T20:00:00+08:00",
+                "InitialTime": "2026-10-14T02:00:00+08:00",
                 "ForecastHour": "6",
-                "CoordinateLongitude": "157.4",
-                "CoordinateLatitude": "38.2",
-                "MaxWindSpeed": "25",
-                "MaxGustSpeed": "33",
-                "Pressure": "985",
-                "MovingSpeed": "37",
+                "CoordinateLongitude": "158.9",
+                "CoordinateLatitude": "39.4",
+                "MaxWindSpeed": "23",
+                "MaxGustSpeed": "30",
+                "Pressure": "990",
+                "MovingSpeed": "33",
                 "MovingDirection": "NE",
                 "Circle15ms": {
                   "Radius": "180"
@@ -1702,32 +1736,16 @@
                 "Radius70PercentProbability": "40"
               },
               {
-                "InitialTime": "2026-10-13T20:00:00+08:00",
+                "InitialTime": "2026-10-14T02:00:00+08:00",
                 "ForecastHour": "12",
-                "CoordinateLongitude": "159.2",
-                "CoordinateLatitude": "39.6",
-                "MaxWindSpeed": "23",
-                "MaxGustSpeed": "30",
-                "Pressure": "990",
-                "MovingSpeed": "37",
-                "MovingDirection": "NE",
-                "Circle15ms": {
-                  "Radius": "180"
-                },
-                "Circle25ms": null,
-                "Radius70PercentProbability": "60"
-              },
-              {
-                "InitialTime": "2026-10-13T20:00:00+08:00",
-                "ForecastHour": "18",
-                "CoordinateLongitude": "161.0",
-                "CoordinateLatitude": "40.8",
-                "Pressure": "990",
-                "MovingSpeed": "34",
+                "CoordinateLongitude": "160.8",
+                "CoordinateLatitude": "40.6",
+                "Pressure": "985",
+                "MovingSpeed": "35",
                 "MovingDirection": "NE",
                 "Circle15ms": null,
                 "Circle25ms": null,
-                "Radius70PercentProbability": "80",
+                "Radius70PercentProbability": "50",
                 "StateTransfer": [
                   {
                     "@lang": "zh-hant",
