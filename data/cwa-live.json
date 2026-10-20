@@ -1,9 +1,9 @@
 {
   "cwaopendata": {
     "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-    "Identifier": "CWA-TropicalCyclone_20261020093504",
+    "Identifier": "CWA-TropicalCyclone_20261020095313",
     "Sender": "fss@wfc.cwa.gov.tw",
-    "Sent": "2026-10-20T09:35:04+08:00",
+    "Sent": "2026-10-20T09:53:13+08:00",
     "Status": "Actual",
     "MsgType": "Update",
     "Scope": "Public",
@@ -1043,11 +1043,11 @@
                 "MovingPrediction": [
                   {
                     "@lang": "zh-hant",
-                    "#text": "以每小時26公里速度，向西北西進行"
+                    "#text": "以每小時25公里速度，向西北西進行"
                   },
                   {
                     "@lang": "en-us",
-                    "#text": "WNW 26 KM/HR"
+                    "#text": "WNW 25 KM/HR"
                   }
                 ],
                 "Circle15ms": {
@@ -1122,12 +1122,12 @@
               {
                 "InitialTime": "2026-10-20T08:00:00+08:00",
                 "ForecastHour": "12",
-                "CoordinateLongitude": "132.8",
-                "CoordinateLatitude": "17.1",
+                "CoordinateLongitude": "132.9",
+                "CoordinateLatitude": "16.9",
                 "MaxWindSpeed": "58",
                 "MaxGustSpeed": "73",
                 "Pressure": "900",
-                "MovingSpeed": "27",
+                "MovingSpeed": "24",
                 "MovingDirection": "WNW",
                 "Circle15ms": {
                   "Radius": "280"
@@ -1140,12 +1140,12 @@
               {
                 "InitialTime": "2026-10-20T08:00:00+08:00",
                 "ForecastHour": "18",
-                "CoordinateLongitude": "131.5",
-                "CoordinateLatitude": "17.6",
+                "CoordinateLongitude": "131.6",
+                "CoordinateLatitude": "17.3",
                 "MaxWindSpeed": "60",
                 "MaxGustSpeed": "75",
                 "Pressure": "895",
-                "MovingSpeed": "25",
+                "MovingSpeed": "24",
                 "MovingDirection": "WNW",
                 "Circle15ms": {
                   "Radius": "280"
@@ -1158,8 +1158,8 @@
               {
                 "InitialTime": "2026-10-20T08:00:00+08:00",
                 "ForecastHour": "24",
-                "CoordinateLongitude": "130.2",
-                "CoordinateLatitude": "18.2",
+                "CoordinateLongitude": "130.4",
+                "CoordinateLatitude": "18.0",
                 "MaxWindSpeed": "60",
                 "MaxGustSpeed": "75",
                 "Pressure": "895",
@@ -1181,7 +1181,7 @@
                 "MaxWindSpeed": "55",
                 "MaxGustSpeed": "68",
                 "Pressure": "910",
-                "MovingSpeed": "24",
+                "MovingSpeed": "26",
                 "MovingDirection": "NW",
                 "Circle15ms": {
                   "Radius": "300"
