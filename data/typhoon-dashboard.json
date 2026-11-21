@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-11-21T04:44:29+08:00",
+  "generated_at": "2026-11-21T09:47:27+08:00",
   "target_date": "2026-11-21",
   "typhoons": [],
   "jma_updated_at": "2026-11-11T14:57:20+08:00",
@@ -510,8 +510,10 @@
       "臺北市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
       "新北市: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
     ],
-    "holiday_weather_error_count": 0,
-    "holiday_weather_errors": [],
+    "holiday_weather_error_count": 1,
+    "holiday_weather_errors": [
+      "batch: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+    ],
     "typhoon_count": 0,
     "cwa_sent": "2026-11-11T14:57:20+08:00",
     "typhoon_empty_verified": true,
@@ -522,45 +524,22 @@
   "disclaimer": "官方停班停課以行政院人事行政總處及各地方政府公告為準；推估指數僅依公開風雨預報、法規參考門檻與颱風距離產生，不代表政府決策或統計機率。",
   "holiday_outlook": {
     "model": "heuristic-v1",
-    "updated_at": "2026-11-21T04:44:26+08:00",
+    "updated_at": "2026-11-21T09:47:24+08:00",
     "days": [
       {
         "date": "2026-11-22",
         "day_offset": 1,
         "counties": [
           {
-            "county": "澎湖縣",
-            "date": "2026-11-22",
-            "day_offset": 1,
-            "risk_score": 24,
-            "likelihood_pct": 6,
-            "confidence": "中",
-            "official": false,
-            "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 45.3,
-              "gust_kmh": 59.4
-            },
-            "closest_track_km": null,
-            "reasons": [
-              "平均風偏強"
-            ]
-          },
-          {
             "county": "南投縣",
             "date": "2026-11-22",
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 8.1,
-              "gust_kmh": 20.5
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -570,14 +549,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 6.1,
-              "gust_kmh": 16.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -587,14 +562,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.7,
-              "gust_kmh": 27.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -604,14 +575,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 20.0,
-              "gust_kmh": 45.7
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -621,14 +588,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 14.8,
-              "gust_kmh": 35.3
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -638,14 +601,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 12.3,
-              "gust_kmh": 30.6
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -655,14 +614,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 8.4,
-              "gust_kmh": 22.7
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -672,14 +627,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 23.0,
-              "gust_kmh": 50.0
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -689,14 +640,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 23.6,
-              "gust_kmh": 47.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -706,14 +653,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 29.5,
-              "gust_kmh": 59.8
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -723,14 +666,23 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 25.1,
-              "gust_kmh": 56.2
-            },
+            "weather": {},
+            "closest_track_km": null,
+            "reasons": []
+          },
+          {
+            "county": "澎湖縣",
+            "date": "2026-11-22",
+            "day_offset": 1,
+            "risk_score": 0,
+            "likelihood_pct": 2,
+            "confidence": "低",
+            "official": false,
+            "official_status": "",
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -740,14 +692,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 5.7,
-              "gust_kmh": 14.8
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -757,14 +705,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 20.4,
-              "gust_kmh": 46.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -774,14 +718,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.9,
-              "gust_kmh": 28.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -791,14 +731,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 15.4,
-              "gust_kmh": 38.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -808,14 +744,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 6.3,
-              "gust_kmh": 19.1
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -825,14 +757,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 15.6,
-              "gust_kmh": 31.7
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -842,14 +770,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 34.6,
-              "gust_kmh": 45.7
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -859,14 +783,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 31.4,
-              "gust_kmh": 60.1
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -876,14 +796,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 11.7,
-              "gust_kmh": 27.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -893,14 +809,10 @@
             "day_offset": 1,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "中",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 13.8,
-              "gust_kmh": 38.2
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           }
@@ -916,14 +828,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 7.4,
-              "gust_kmh": 21.6
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -933,14 +841,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 8.8,
-              "gust_kmh": 16.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -950,14 +854,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 11.8,
-              "gust_kmh": 23.8
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -967,14 +867,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.8,
-              "wind_kmh": 17.4,
-              "gust_kmh": 38.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -984,14 +880,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 13.6,
-              "gust_kmh": 32.8
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1001,14 +893,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.5,
-              "gust_kmh": 24.1
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1018,14 +906,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.7,
-              "gust_kmh": 28.1
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1035,14 +919,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 14.8,
-              "gust_kmh": 36.7
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1052,14 +932,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.5,
-              "gust_kmh": 25.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1069,14 +945,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.4,
-              "gust_kmh": 27.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1086,14 +958,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.0,
-              "gust_kmh": 28.1
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1103,14 +971,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 20.5,
-              "gust_kmh": 28.8
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1120,14 +984,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 9.4,
-              "gust_kmh": 25.6
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1137,14 +997,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.1,
-              "wind_kmh": 15.1,
-              "gust_kmh": 35.3
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1154,14 +1010,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.3,
-              "gust_kmh": 25.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1171,14 +1023,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 14.8,
-              "gust_kmh": 30.2
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1188,14 +1036,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 7.3,
-              "gust_kmh": 18.0
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1205,14 +1049,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 10.3,
-              "gust_kmh": 28.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1222,14 +1062,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 35.0,
-              "gust_kmh": 47.9
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1239,14 +1075,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.1,
-              "wind_kmh": 20.1,
-              "gust_kmh": 42.5
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1256,14 +1088,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.0,
-              "wind_kmh": 12.6,
-              "gust_kmh": 28.4
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           },
@@ -1273,14 +1101,10 @@
             "day_offset": 2,
             "risk_score": 0,
             "likelihood_pct": 2,
-            "confidence": "較低",
+            "confidence": "低",
             "official": false,
             "official_status": "",
-            "weather": {
-              "precip_mm": 0.1,
-              "wind_kmh": 10.8,
-              "gust_kmh": 31.7
-            },
+            "weather": {},
             "closest_track_km": null,
             "reasons": []
           }
@@ -1288,7 +1112,7 @@
       }
     ],
     "note": "模型估計可能性由公開風雨預報、停班停課參考門檻與官方颱風預測中心距離轉換而成，並非經歷史樣本校準的統計機率。",
-    "rescored_at": "2026-11-21T04:44:29+08:00"
+    "rescored_at": "2026-11-21T09:47:27+08:00"
   },
   "typhoon_updated_at": "2026-11-11T14:57:20+08:00",
   "typhoon_source": "中央氣象署 W-C0034-005",
